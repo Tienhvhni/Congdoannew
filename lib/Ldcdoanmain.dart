@@ -191,7 +191,7 @@ List<Hoso> dsldaocd = [
   const Hoso(
     id: "1",
     chucdanh: "CTCĐ VNPT Hà Nội",
-    hoten: "Nuyễn Hữu Thống",
+    hoten: "Nguyễn Hữu Thống",
     dienthoai: "091 320 1579",
     email: "thongnh.hni@vnpt.vn",
     image: "assets/ldaocdoan/thong_ctcd.png",
