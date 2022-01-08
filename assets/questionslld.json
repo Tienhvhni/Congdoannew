@@ -1,0 +1,207 @@
+{
+    "questions": [
+        {
+            "questionText": "Bộ LLĐ năm 2012 quy định tiền lương của NLĐ trong thời gian thử việc do hai bên thoả thuận nhưng ít nhất phải bằng bao nhiêu % mức lương của công việc đó?",
+            "id": 1,
+            "answers": [
+                {
+                    "text": "Ít nhất bằng 60%",
+                    "score": 0
+                },
+                {
+                    "text": "Ít nhất bằng 75%",
+                    "score": 0
+                },
+                {
+                    "text": "Ít nhất bằng 85%",
+                    "score": 1
+                },
+                {
+                    "text": "Ít nhất bằng 90%",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Theo Bộ LLĐ năm 2012, Hợp đồng lao động là gì?",
+            "id": 2,
+            "answers": [
+                {
+                    "text": "Hợp đồng lao động là sự thoả thuận giữa NLĐ và Người sử dụng lao động về việc làm có trả lương, điều kiện làm việc, quyền và nghĩa vụ của mỗi bên trong quan hệ lao động.",
+                    "score": 1
+                },
+                {
+                    "text": "Hợp đồng lao động là thỏa thuận giữa NLĐ và Người sử dụng lao động về tiền lương, tiền công trong quan hệ lao động.",
+                    "score": 0
+                },
+                {
+                    "text": "Hợp đồng lao động là sự thỏa thuận giữa NLĐ và Người sử dụng lao động về công việc, tiền lương, thời giờ làm việc, thời giờ nghỉ ngơi và các quyền, nghĩa vụ khác trong quan hệ lao động.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Bộ LLĐ năm 2012 quy định Hợp đồng lao động gồm có mấy loại?",
+            "id": 3,
+            "answers": [
+                {
+                    "text": "2 loại, gồm: Hợp đồng lao động không xác định thời hạn và hợp đồng lao động xác định thời hạn.",
+                    "score": 0
+                },
+                {
+                    "text": "3 loại, gồm: Hợp đồng lao động không xác định thời hạn, hợp đồng lao động 1 năm và hợp đồng lao động có thời hạn từ 1 đến 3 năm.",
+                    "score": 0
+                },
+                {
+                    "text": "3 loại, gồm: Hợp đồng lao động không xác định thời hạn; hợp đồng lao động xác định thời hạn từ đủ 12 tháng đến 36 tháng; hợp đồng lao động theo mùa vụ hoặc theo một công việc nhất định có thời hạn dưới 12 tháng.",
+                    "score": 1
+                }
+            ]
+        },{
+            "questionText": "Bộ LLĐ năm 2012 quy định Người sử dụng lao động được khấu trừ tiền lương của NLĐ để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị (tài sản) của Người sử dụng lao động với mức nào sau đây?",
+            "id": 4,
+            "answers": [
+                {
+                    "text": "Mức khấu trừ tiền lương hằng tháng không quá 30% tiền lương hằng tháng của NLĐ.",
+                    "score": 0
+                },
+                {
+                    "text": "Mức khấu trừ tiền lương hằng tháng không quá 50% tiền lương hằng tháng của NLĐ.",
+                    "score": 0
+                },
+                {
+                    "text": "Mức khấu trừ tiền lương hằng tháng không quá 30% tiền lương hằng tháng của NLĐ sau khi trích nộp các khoản bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp, thuế thu nhập.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Bộ LLĐ năm 2012 quy định những trường hợp nào NLĐ được quyền đơn phương chấm dứt Hợp đồng lao động?",
+            "id": 5,
+            "answers": [
+                {
+                    "text": "Bản thân hoặc gia đình có hoàn cảnh khó khăn không thể tiếp tục thực hiện hợp đồng lao động.",
+                    "score": 0
+                },
+                {
+                    "text": "Được bầu làm nhiệm vụ chuyên trách ở cơ quan dân cử hoặc được bổ nhiệm giữ chức vụ trong bộ máy nhà nước.",
+                    "score": 0
+                },
+                {
+                    "text": "Lao động nữ mang thai phải nghỉ việc theo chỉ định của cơ sở khám bệnh, chữa bệnh có thẩm quyền.",
+                    "score": 0
+                },
+                {
+                    "text": "Cả ba trường hợp trên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Bộ LLĐ năm 2012 quy định thời gian NLĐ được nghỉ để giải quyết việc riêng mà vẫn hưởng nguyên lương trong trường hợp nào?",
+            "id": 6,
+            "answers": [
+                {
+                    "text": "Kết hôn: nghỉ 03 ngày.",
+                    "score": 0
+                },
+                {
+                    "text": "Con kết hôn: nghỉ 01 ngày.",
+                    "score": 0
+                },
+                {
+                    "text": "Bố đẻ, mẹ đẻ, bố vợ, mẹ vợ hoặc bố chồng, mẹ chồng chết; vợ chết hoặc chồng chết; con chết: nghỉ 03 ngày.",
+                    "score": 0
+                },
+                {
+                    "text": "Cả 3 trường hợp trên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Bộ LLĐ năm 2012 quy định khi đơn phương chấm dứt Hợp đồng lao động không xác định thời hạn, Người sử dụng lao động phải báo cho NLĐ biết trước ít nhất bao nhiêu ngày?",
+            "id": 7,
+            "answers": [
+                {
+                    "text": "Ít nhất 20 ngày.",
+                    "score": 0
+                },
+                {
+                    "text": "Ít nhất 30 ngày.",
+                    "score": 0
+                },
+                {
+                    "text": "Ít nhất 35 ngày.",
+                    "score": 0
+                },
+                {
+                    "text": "Ít nhất 45 ngày.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Bộ LLĐ năm 2012 quy định Phụ lục Hợp đồng lao động có giá trị pháp lý như thế nào?",
+            "id": 8,
+            "answers": [
+                {
+                    "text": "Phụ lục Hợp đồng lao động là một văn bản độc lập với hợp đồng lao động, do đó không có hiệu lực như Hợp đồng lao động.",
+                    "score": 0
+                },
+                {
+                    "text": "Phụ lục Hợp đồng lao động là một bộ phận của Hợp đồng lao động và có hiệu lực như Hợp đồng lao động",
+                    "score": 1
+                },
+                {
+                    "text": "Phụ lục Hợp đồng lao động là một văn bản độc lập với Hợp đồng lao động, nhưng có hiệu lực như Hợp đồng lao động",
+                    "score": 0
+                },
+                {
+                    "text": "Cả 3 trường hợp trên.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Bộ LLĐ năm 2012 quy định thời gian tổ chức đối thoại tại nơi làm việc được tiến hành định kỳ bao nhiêu tháng một lần?",
+            "id": 9,
+            "answers": [
+                {
+                    "text": "Đối thoại tại nơi làm việc được tiến hành định kỳ 03 tháng một lần hoặc theo yêu cầu của một bên.",
+                    "score": 0
+                },
+                {
+                    "text": "Đối thoại tại nơi làm việc được tiến hành định kỳ 06 tháng một lần hoặc theo yêu cầu của một bên.",
+                    "score": 0
+                },
+                {
+                    "text": "Đối thoại tại nơi làm việc được tiến hành định kỳ 09 tháng một lần hoặc theo yêu cầu của một bên.",
+                    "score": 0
+                },
+                {
+                    "text": "Đối thoại tại nơi làm việc được tiến hành định kỳ 12 tháng một lần hoặc theo yêu cầu của một bên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Bộ LLĐ năm 2012 quy định: Người sử dụng lao động không được sử dụng lao động nữ làm việc ban đêm, làm thêm giờ và đi công tác xa trong trường hợp sau đây?",
+            "id": 10,
+            "answers": [
+                {
+                    "text": "Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo; Đang nuôi con dưới 12 tháng tuổi.",
+                    "score": 1
+                },
+                {
+                    "text": "Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo; Đang nuôi con dưới 24 tháng tuổi.",
+                    "score": 0
+                },
+                {
+                    "text": "Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo; Đang nuôi con dưới 36 tháng tuổi.",
+                    "score": 0
+                }
+            ]
+        }
+    ]
+}

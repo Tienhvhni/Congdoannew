@@ -1,0 +1,225 @@
+{
+    "questions": [
+        {
+            "questionText": "Luật BHXH năm 2014 quy định thời gian hưởng chế độ ốm đau trong một năm đối với NLĐ làm việc trong điều kiện bình thường đã đóng BHXH dưới 15 năm là bao nhiêu ngày?",
+            "id": 1,
+            "answers": [
+                {
+
+                    "text": "10 ngày",
+                    "score": 0
+                },
+                {
+                    "text": "20 ngày",
+                    "score": 0
+                },
+                {
+                    "text": "30 ngày",
+                    "score": 1
+                },
+                {
+                    "text": "40 ngày",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Luật BHXH năm 2014 quy định trong thời gian mang thai, lao động nữ được nghỉ việc để đi khám thai mấy lần?",
+            "id": 2,
+            "answers": [
+                {
+                    "text": "4 lần",
+                    "score": 0
+                },
+                {
+                    "text": "5 lần",
+                    "score": 1
+                },
+                {
+                    "text": "6 lần",
+                    "score": 0
+                },
+                {
+                    "text": "7 lần",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Luật BHXH năm 2014 quy định NLĐ nghỉ việc do mắc bệnh thuộc Danh mục bệnh cần chữa trị dài ngày do Bộ Y tế ban hành thì được hưởng chế độ ốm đau như thế nào?",
+            "id": 3,
+            "answers": [
+                {
+                    "text": "Tối đa 180 ngày tính cả ngày nghỉ lễ, nghỉ Tết, ngày nghỉ hằng tuần.",
+                    "score": 0
+                },
+                {
+                    "text": "Được hưởng chế độ ốm đau bằng thời gian đã đóng BHXH.",
+                    "score": 0
+                },
+                {
+                    "text": "Tối đa 180 ngày tính cả ngày nghỉ lễ, nghỉ Tết, ngày nghỉ hằng tuần. Hết thời hạn hưởng chế độ ốm đau mà vẫn tiếp tục điều trị thì được hưởng tiếp chế độ ốm đau với mức thấp hơn nhưng thời gian hưởng tối đa bằng thời gian đã đóng BHXH",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "NLĐ đã nghỉ việc hưởng chế độ ốm đau đủ thời gian trong một năm theo quy định của Luật BHXH năm 2014, trong khoảng thời gian 30 ngày đầu trở lại làm việc mà sức khỏe chưa phục hồi thì có được nghỉ dưỡng sức, phục hồi sức khỏe hay không?",
+            "id": 4,
+            "answers": [
+                {
+                    "text": "Không được nghỉ dưỡng sức, phục hồi sức khỏe.",
+                    "score": 0
+                },
+                {
+                    "text": "Được nghỉ dưỡng sức, phục hồi sức khỏe từ 05 ngày đến 10 ngày trong một năm (bao gồm cả ngày nghỉ lễ, nghỉ Tết, ngày nghỉ hằng tuần)",
+                    "score": 1
+                },
+                {
+                    "text": "Được nghỉ dưỡng sức, phục hồi sức khoẻ tối đa 20 ngày trong một năm (không tính các ngày nghỉ lễ, nghỉ Tết, ngày nghỉ hằng tuần).",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Luật BHXH năm 2014 quy định NLĐ được hưởng chế độ tai nạn lao động trong các trường hợp nào sau đây?",
+            "id": 5,
+            "answers": [
+                {
+                    "text": "Tại nơi làm việc và trong giờ làm việc",
+                    "score": 0
+                },
+                {
+                    "text": "Ngoài nơi làm việc hoặc ngoài giờ làm việc khi thực hiện công việc theo yêu cầu của người sử dụng lao động.",
+                    "score": 0
+                },
+                {
+                    "text": "Trên tuyến đường đi và về từ nơi ở đến nơi làm việc trong khoảng thời gian và tuyến đường hợp lý.",
+                    "score": 0
+                },
+                {
+                    "text": "Cả 3 trường hợp trên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Luật BHXH năm 2014 quy định trách nhiệm của NLĐ khi tham gia BHXH như thế nào?",
+            "id": 6,
+            "answers": [
+                {
+                    "text": "Đóng BHXH theo quy định của Luật BHXH.",
+                    "score": 0
+                },
+                {
+                    "text": "Thực hiện quy định về việc lập hồ sơ BHXH.",
+                    "score": 0
+                },
+                {
+                    "text": "Bảo quản sổ BHXH theo đúng quy định.",
+                    "score": 0
+                },
+                {
+                    "text": "Cả 3 trường hợp trên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Luật BHXH năm 2014 quy định NLĐ được hưởng chế độ thai sản trong các trường hợp nào sau đây?",
+            "id": 7,
+            "answers": [
+                {
+                    "text": "Lao động nữ mang thai; Lao động nữ sinh con.",
+                    "score": 0
+                },
+                {
+                    "text": "Lao động nữ mang thai hộ và người mẹ nhờ mang thai hộ.",
+                    "score": 0
+                },
+                {
+                    "text": "NLĐ nhận nuôi con nuôi dưới 06 tháng tuổi.",
+                    "score": 0
+                },
+                {
+                    "text": "Lao động nữ đặt vòng tránh thai, NLĐ thực hiện biện pháp triệt sản; Lao động nam đang đóng BHXH có vợ sinh con.",
+                    "score": 0
+                },
+                {
+                    "text": "Cả 4 trường hợp trên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Luật BHXH năm 2014 quy định Lao động nam đang đóng BHXH khi vợ sinh con thời gian được nghỉ việc hưởng chế độ thai sản như thế nào?",
+            "id": 8,
+            "answers": [
+                {
+                    "text": "05 ngày làm việc với trường hợp sinh thường",
+                    "score": 0
+                },
+                {
+                    "text": "07 ngày làm việc khi vợ sinh con phải phẫu thuật, sinh con dưới 32 tuần tuổi.",
+                    "score": 0
+                },
+                {
+                    "text": "Trường hợp vợ sinh đôi thì được nghỉ 10 ngày làm việc, từ sinh ba trở lên thì cứ thêm mỗi con được nghỉ thêm 03 ngày làm việc",
+                    "score": 0
+                },
+                {
+                    "text": "Trường hợp vợ sinh đôi trở lên mà phải phẫu thuật thì được nghỉ 14 ngày làm việc. Thời gian nghỉ việc hưởng chế độ thai sản của Lao động nam được tính trong khoảng thời gian 30 ngày đầu kể từ ngày vợ sinh con",
+                    "score": 0
+                },
+                {
+                    "text": "Cả 4 trường hợp trên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Luật BHXH năm 2014 quy định NLĐ khi tham gia BHXH bắt buộc được thụ hưởng những chế độ nào sau đây?",
+            "id": 9,
+            "answers": [
+                {
+                    "text": "Ốm đau, thai sản, hưu trí, tử tuất",
+                    "score": 0
+                },
+                {
+                    "text": "Thai sản, tử tuất, tai nạn lao động, bệnh nghề nghiệp",
+                    "score": 0
+                },
+                {
+                    "text": "Tai nạn lao động, bệnh nghề nghiệp.",
+                    "score": 0
+                },
+                {
+                    "text": "Ốm đau; thai sản; hưu trí; tử tuất; tai nạn lao động, bệnh nghề nghiệp",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Luật BHXH  năm 2014 quy định: Khi vợ sinh con phải phẫu thuật, sinh con dưới 32 tuần tuổi, lao động nam đang đóng BHXH được nghỉ việc hưởng chế độ thai sản là bao nhiêu ngày?",
+            "id": 10,
+            "answers": [
+                {
+                    "text": "5 ngày làm việc.",
+                    "score": 0
+                },
+                {
+                    "text": "7 ngày làm việc.",
+                    "score": 1
+                },
+                {
+                    "text": "8 ngày làm việc.",
+                    "score": 0
+                },
+                {
+                    "text": "10 ngày làm việc.",
+                    "score": 0
+                }
+            ]
+        }
+    ]
+}

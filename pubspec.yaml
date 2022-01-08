@@ -1,0 +1,179 @@
+name: congdoan
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.4
+  shared_preferences: ^2.0.11
+  path_provider: ^2.0.8
+  flutter_launcher_icons: ^0.7.2+1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/congdoan.png"
+
+dev_dependencies:
+  webview_flutter: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.4
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - congdoan.png
+    - cdvnpthni.png
+    - sotay.png
+    - quochoi.png
+    - logovnpt2.png
+    - assets/html/fives/5s.png
+    - assets/html/fives/phan1_5s.html
+    - assets/html/fives/phan2_5s.html
+    - assets/html/fives/phan3_5s.html
+    - assets/html/fives/phan4_5s.html
+    - assets/html/fives/phan5_5s.html
+    - assets/html/fives/phan6_5s.html
+    - assets/html/fives/phan7_5s.html
+    - assets/html/luatbhxh/chuong1lbhxh.html
+    - assets/html/luatbhxh/chuong2lbhxh.html
+    - assets/html/luatbhxh/chuong3lbhxh.html
+    - assets/html/luatbhxh/chuong4lbhxh.html
+    - assets/html/luatbhxh/chuong5lbhxh.html
+    - assets/html/luatbhxh/chuong6lbhxh.html
+    - assets/html/luatbhxh/chuong7lbhxh.html
+    - assets/html/luatbhxh/chuong8lbhxh.html
+    - assets/html/luatbhxh/chuong9lbhxh.html
+    - assets/html/luatlaodong/chuong1llaodong.html
+    - assets/html/luatlaodong/chuong2llaodong.html
+    - assets/html/luatlaodong/chuong3llaodong.html
+    - assets/html/luatlaodong/chuong4llaodong.html
+    - assets/html/luatlaodong/chuong5llaodong.html
+    - assets/html/luatlaodong/chuong6llaodong.html
+    - assets/html/luatlaodong/chuong7llaodong.html
+    - assets/html/luatlaodong/chuong8llaodong.html
+    - assets/html/luatlaodong/chuong9llaodong.html
+    - assets/html/luatlaodong/chuong10llaodong.html
+    - assets/html/luatlaodong/chuong11llaodong.html
+    - assets/html/luatlaodong/chuong12llaodong.html
+    - assets/html/luatlaodong/chuong13llaodong.html
+    - assets/html/luatlaodong/chuong14llaodong.html
+    - assets/html/luatlaodong/chuong15llaodong.html
+    - assets/html/luatlaodong/chuong16llaodong.html
+    - assets/html/luatlaodong/chuong17llaodong.html
+    - assets/html/luatcongdoan/chuong1lcd.html
+    - assets/html/luatcongdoan/chuong2lcd.html
+    - assets/html/luatcongdoan/chuong3lcd.html
+    - assets/html/luatcongdoan/chuong4lcd.html
+    - assets/html/luatcongdoan/chuong5lcd.html
+    - assets/html/luatcongdoan/chuong6lcd.html
+    - assets/html/qcdcvnpt/chuong1lqcdc.html
+    - assets/html/qcdcvnpt/chuong2lqcdc.html
+    - assets/html/qcdcvnpt/chuong3lqcdc.html
+    - assets/html/qcdcvnpt/chuong4lqcdc.html
+    - assets/html/qcdcvnpt/phulucqcdc.html
+    - assets/html/tuldttvnpt/chuong1tuldtt.html
+    - assets/html/tuldttvnpt/chuong2tuldtt.html
+    - assets/html/tuldttvnpt/chuong3tuldtt.html
+    - assets/html/tuldttvnpt/chuong4tuldtt.html
+    - assets/html/tuldttvnpt/chuong5tuldtt.html
+    - assets/ldaocdoan/chinhpct.jpg
+    - assets/ldaocdoan/diepdvvt.jpg
+    - assets/ldaocdoan/hangbtd.jpg
+    - assets/ldaocdoan/hop1.png
+    - assets/ldaocdoan/hunglm4.jpg
+    - assets/ldaocdoan/hungtx.jpg
+    - assets/ldaocdoan/kiennv.png
+    - assets/ldaocdoan/loi8.jpg
+    - assets/ldaocdoan/maicntt.png
+    - assets/ldaocdoan/manh2.jpg
+    - assets/ldaocdoan/me.jpg
+    - assets/ldaocdoan/phuongpct.jpg
+    - assets/ldaocdoan/tam5.jpg
+    - assets/ldaocdoan/thang7.jpg
+    - assets/ldaocdoan/thong_ctcd.png
+    - assets/ldaocdoan/tien6.jpg
+    - assets/ldaocdoan/tru3.jpg
+    - assets/ldaocdoan/tuanvpdthe.png
+    - assets/ldaocdoan/yenphuong9.jpg
+    - assets/ldaocdoan/ngahacisco.jpg
+    - assets/ldaocdoan/hieu5.jpg
+    - assets/ldaocdoan/havpdt.jpg
+    - assets/ldaocdoan/binhhadic.jpg
+    - questionsbhxh.json
+    - questionslld.json
+    - questionslcd.json
+    - quiz.jpg
+
+  #   - images/a_dot_burr.jpegpng
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

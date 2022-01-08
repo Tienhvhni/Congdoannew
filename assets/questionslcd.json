@@ -1,0 +1,705 @@
+{
+    "questions": [
+        {
+            "questionText": "Luật Công đoàn năm 2012 quy định Công đoàn tuyên truyền, vận động, giáo dục NLĐ gồm những nội dung nào?",
+            "id": 1,
+            "answers": [
+                {
+                    "text": "Tuyên truyền đường lối, chủ trương, chính sách của Đảng, pháp luật của Nhà nước liên quan đến Công đoàn, NLĐ; quy định của Công đoàn.",
+                    "score": 0
+                },
+                {
+                    "text": "Tuyên truyền, vận động, giáo dục NLĐ học tập, nâng cao trình độ chính trị, văn hóa, chuyên môn, kỹ năng nghề nghiệp, ý thức chấp hành pháp luật, nội quy, quy chế của cơ quan, tổ chức, doanh nghiệp.",
+                    "score": 0
+                },
+                {
+                    "text": "Tuyên truyền, vận động, giáo dục NLĐ thực hành tiết kiệm, chống lãng phí, đấu tranh phòng, chống tham nhũng.",
+                    "score": 1
+                },
+                {
+                    "text": "Tất cả những nội dung trên.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Luật Công đoàn năm 2012 quy định khi tham gia, phối hợp thanh tra, kiểm tra, giám sát hoạt động của cơ quan, tổ chức, doanh nghiệp Công đoàn có các quyền nào sau đây?",
+            "id": 2,
+            "answers": [
+                {
+                    "text": "Yêu cầu cơ quan, tổ chức, doanh nghiệp cung cấp thông tin, tài liệu và giải trình những vấn đề có liên quan;",
+                    "score": 0
+                },
+                {
+                    "text": "Kiến nghị biện pháp sửa chữa thiếu sót, ngăn ngừa vi phạm, khắc phục hậu quả và xử lý hành vi vi phạm pháp luật;",
+                    "score": 1
+                },
+                {
+                    "text": "Trường hợp phát hiện nơi làm việc có yếu tố ảnh hưởng hoặc nguy hiểm đến sức khoẻ, tính mạng NLĐ, Công đoàn có quyền yêu cầu cơ quan, tổ chức, doanh nghiệp, cá nhân có trách nhiệm thực hiện ngay biện pháp khắc phục, bảo đảm an toàn lao động, kể cả trường hợp phải tạm ngừng hoạt động.",
+                    "score": 0
+                },
+                {
+                    "text": "Tất cả các quyền trên.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Thành phần thể thức nào sau đây không bắt buộc phải có trong văn bản của tổ chức Công đoàn?",
+            "id": 3,
+            "answers": [
+                {
+                    "text": "Quốc hiệu.",
+                    "score": 0
+                },
+                {
+                    "text": "Địa điểm và ngày, tháng, năm ban hành văn bản.",
+                    "score": 0
+                },
+                {
+                    "text": "Dấu chỉ mức độ khẩn.",
+                    "score": 0
+                },
+                {
+                    "text": "Dấu của cơ quan ban hành văn bản.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Công đoàn cấp trên trực tiếp cơ sở không có thẩm quyền ban hành loại văn bản nào sau đây?",
+            "id": 4,
+            "answers": [
+                {
+                    "text": "Quy chế.",
+                    "score": 0
+                },
+                {
+                    "text": "Nghị quyết.",
+                    "score": 2
+                },
+                {
+                    "text": "Thông tri.",
+                    "score": 0
+                },
+                {
+                    "text": "Đề án.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Điều lệ Công đoàn Việt Nam khóa XI quy định thành lập Công đoàn cơ sở gồm điều kiện nào sau đây?",
+            "id": 5,
+            "answers": [
+                {
+                    "text": "Có tư cách pháp nhân và có ít nhất 5 đoàn viên công đoàn hoặc 5 NLĐ có đơn tự nguyện gia nhập Công đoàn Việt Nam.",
+                    "score": 0
+                },
+                {
+                    "text": "Có tư cách pháp nhân và có ít nhất 10 đoàn viên công đoàn hoặc 10 NLĐ có đơn tự nguyện gia nhập Công đoàn Việt Nam.",
+                    "score": 0
+                },
+                {
+                    "text": "Có tư cách pháp nhân và có ít nhất 12 đoàn viên công đoàn hoặc 12 NLĐ có đơn tự nguyện gia nhập Công đoàn Việt Nam.",
+                    "score": 0
+                },
+                {
+                    "text": "Có tư cách pháp nhân và có ít nhất 15 đoàn viên công đoàn hoặc 15 NLĐ có đơn tự nguyện gia nhập Công đoàn Việt Nam",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Luật Công đoàn năm 2012 quy định Công đoàn Việt Nam có các chức năng nào sau đây?",
+            "id": 6,
+            "answers": [
+                {
+                    "text": "Đại diện NLĐ, cùng với cơ quan Nhà nước, tổ chức kinh tế, tổ chức xã hội chăm lo và bảo vệ quyền, lợi ích hợp pháp, chính đáng của NLĐ",
+                    "score": 0
+                },
+                {
+                    "text": "Tham gia quản lý Nhà nước, quản lý kinh tế - xã hội, tham gia thanh tra, kiểm tra, giám sát hoạt động của cơ quan Nhà nước, tổ chức, đơn vị, doanh nghiệp.",
+                    "score": 0
+                },
+                {
+                    "text": "Tuyên truyền, vận động NLĐ học tập nâng cao trình độ, kỹ năng nghề nghiệp, chấp hành pháp luật, xây dựng và bảo vệ Tổ quốc Việt Nam xã hội chủ nghĩa.",
+                    "score": 0
+                },
+                {
+                    "text": "Cả 03 chức năng trên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Điều lệ Công đoàn Việt Nam khóa XI quy định số lượng Ban Chấp hành Công đoàn cơ sở tối đa gồm bao nhiêu Ủy viên?",
+            "id": 7,
+            "answers": [
+                {
+                    "text": "9 ủy viên.",
+                    "score": 0
+                },
+                {
+                    "text": "15 ủy viên.",
+                    "score": 0
+                },
+                {
+                    "text": "17 ủy viên.",
+                    "score": 0
+                },
+                {
+                    "text": "19 ủy viên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Luật Công đoàn năm 2012 quy định quan hệ giữa Công đoàn với Nhà nước, cơ quan, tổ chức, doanh nghiệp là:",
+            "id": 8,
+            "answers": [
+                {
+                    "text": "Quan hệ lãnh đạo, chỉ đạo.",
+                    "score": 0
+                },
+                {
+                    "text": "Quan hệ lãnh đạo, phối hợp.",
+                    "score": 0
+                },
+                {
+                    "text": "Quan hệ hợp tác, phối hợp.",
+                    "score": 0
+                },
+                {
+                    "text": "Cả 03 quan hệ trên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Điều lệ Công đoàn Việt Nam khóa XI quy định Uỷ ban Kiểm tra Công đoàn cơ sở do công đoàn cấp nào ra quyết định công nhận?",
+            "id": 9,
+            "answers": [
+                {
+                    "text": "Công đoàn cấp tỉnh",
+                    "score": 0
+                },
+                {
+                    "text": "Công đoàn cấp huyện, ngành.",
+                    "score": 0
+                },
+                {
+                    "text": "Công đoàn cấp trên trực tiếp của CĐCS.",
+                    "score": 0
+                },
+                {
+                    "text": "Công đoàn cấp cơ sở.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Điều lệ Công đoàn Việt Nam khóa XI quy định những đối tượng nào dưới đây không được kết nạp vào tổ chức công đoàn?",
+            "id": 10,
+            "answers": [
+                {
+                    "text": "Chủ doanh nghiệp, Chủ tịch Hội đồng quản trị, Chủ tịch Hội đồng thành viên, Tổng Giám đốc, giám đốc; người được ủy quyền quản lý doanh nghiệp hoặc ký hợp đồng lao động với NLĐ trong doanh nghiệp thuộc khu vực ngoài nhà nước, khu vực có vốn đầu tư nước ngoài (bao gồm Phó Chủ tịch Hội đồng quản trị, Phó Tổng Giám đốc, Phó Giám đốc, Giám đốc nhân sự).",
+                    "score": 0
+                },
+                {
+                    "text": "Hiệu trưởng, Viện trưởng; Phó Hiệu trưởng, Phó Viện trưởng được ủy quyền quản lý đơn vị hoặc ký Hợp đồng lao động với NLĐ trong đơn vị sự nghiệp ngoài công lập.",
+                    "score": 0
+                },
+                {
+                    "text": "Xã viên trong các Hợp tác xã nông nghiệp. Người đang trong thời gian chấp hành các hình phạt tù theo quyết định của tòa án.",
+                    "score": 0
+                },
+                {
+                    "text": "NLĐ có quốc tịch nước ngoài đang làm việc tại Việt Nam.",
+                    "score": 1
+                },
+                {
+                    "text": "Cả 4 trường hợp trên.",
+                    "score": 1
+                }
+            ]
+        },
+
+
+
+
+
+        {
+            "questionText": "Điều lệ Công đoàn Việt Nam khóa XI quy định Hệ thống tổ chức Công đoàn Việt Nam được tổ chức theo mấy cấp cơ bản?",
+            "id": 11,
+            "answers": [
+                {
+                    "text": "2 cấp",
+                    "score": 0
+                },
+                {
+                    "text": "3 cấp",
+                    "score": 0
+                },
+                {
+                    "text": "4 cấp",
+                    "score": 1
+                },
+                {
+                    "text": "5 cấp",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Luật Công đoàn năm 2012 quy định Cán bộ công đoàn không chuyên trách là Chủ tịch, Phó Chủ tịch công đoàn cơ sở được sử dụng bao nhiêu giờ làm việc trong một tháng để làm công tác công đoàn?",
+            "id": 12,
+            "answers": [
+                {
+                    "text": "12 giờ làm việc trong một tháng.",
+                    "score": 0
+                },
+                {
+                    "text": "24 giờ làm việc trong một tháng.",
+                    "score": 1
+                },
+                {
+                    "text": "48 giờ làm việc trong một tháng.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Luật Công đoàn năm 2012 quy định NLĐ là cán bộ công đoàn không chuyên trách đang trong nhiệm kỳ mà hết hạn Hợp đồng lao động, hợp đồng làm việc thì có được gia hạn hợp đồng lao động, hợp đồng làm việc không?",
+            "id": 13,
+            "answers": [
+                {
+                    "text": "Không được gia hạn Hợp đồng lao động, hợp đồng làm việc đã ký kết.",
+                    "score": 0
+                },
+                {
+                    "text": "Được gia hạn Hợp đồng lao động, hợp đồng làm việc đã ký kết tối đa 01 tháng.",
+                    "score": 0
+                },
+                {
+                    "text": "Được gia hạn Hợp đồng lao động, hợp đồng làm việc đến hết nhiệm kỳ.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Điều lệ Công đoàn Việt Nam khóa XI quy định số lượng Ủy viên Ban Chấp hành công đoàn được bầu vào Ủy ban Kiểm tra đồng cấp không vượt quá bao nhiêu?",
+            "id": 14,
+            "answers": [
+                {
+                    "text": "1/2 tổng số Ủy viên Ủy ban kiểm tra.",
+                    "score": 0
+                },
+                {
+                    "text": "1/3 tổng số Ủy viên Ủy ban kiểm tra.",
+                    "score": 2
+                },
+                {
+                    "text": "1/4 tổng số Ủy viên Ủy ban kiểm tra.",
+                    "score": 0
+                },
+                {
+                    "text": "Không giới hạn.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Điều lệ Công đoàn Việt Nam khóa XI quy định thời gian định kỳ Ban Chấp hành CĐCS họp ít nhất mấy tháng một lần?",
+            "id": 15,
+            "answers": [
+                {
+                    "text": "3 tháng.",
+                    "score": 1
+                },
+                {
+                    "text": "4 tháng.",
+                    "score": 0
+                },
+                {
+                    "text": "5 tháng.",
+                    "score": 0
+                },
+                {
+                    "text": "6 tháng.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Luật Công đoàn năm 2012 quy định Tài chính công đoàn bao gồm những nguồn thu nào sau đây ?",
+            "id": 16,
+            "answers": [
+                {
+                    "text": "Đoàn phí công đoàn do đoàn viên công đoàn đóng.",
+                    "score": 0
+                },
+                {
+                    "text": "Kinh phí công đoàn do cơ quan, tổ chức, doanh nghiệp đóng bằng 2% quỹ tiền lương làm căn cứ đóng bảo hiểm xã hội cho NLĐ.",
+                    "score": 0
+                },
+                {
+                    "text": "Ngân sách nhà nước cấp hỗ trợ; Nguồn thu khác từ hoạt động văn hóa, thể thao, hoạt động kinh tế của Công đoàn; từ đề án, dự án do Nhà nước giao; từ viện trợ, tài trợ của tổ chức, cá nhân trong nước và nước ngoài.",
+                    "score": 0
+                },
+                {
+                    "text": "Cả ba phương án trên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Nghị định số 191/2013/NĐ-CP ngày 21/11/2013 quy định mức đóng và căn cứ đóng kinh phí công đoàn như thế nào?",
+            "id": 17,
+            "answers": [
+                {
+                    "text": "Bằng 1% Quỹ tiền lương làm căn cứ đóng Bảo hiểm xã hội cho NLĐ.",
+                    "score": 0
+                },
+                {
+                    "text": "Bằng 2% Quỹ tiền lương làm căn cứ đóng Bảo hiểm xã hội cho NLĐ.",
+                    "score": 1
+                },
+                {
+                    "text": "Bằng 3% Quỹ tiền lương làm căn cứ đóng Bảo hiểm xã hội cho NLĐ.",
+                    "score": 0
+                },
+                {
+                    "text": "Bằng 4% Quỹ tiền lương làm căn cứ đóng Bảo hiểm xã hội cho NLĐ.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Quyết định số 270/QĐ-TLĐ ngày 07/3/2014 của Tổng Liên đoàn Lao động Việt Nam quy định phân phối nguồn thu tài chính cho CĐCS là bao nhiêu ?",
+            "id": 18,
+            "answers": [
+                {
+                    "text": "65% tổng số thu kinh phí công đoàn, 60 % tổng số thu đoàn phí công đoàn và 100% tổng số thu khác của đơn vị.",
+                    "score": 1
+                },
+                {
+                    "text": "60% tổng số thu kinh phí công đoàn, 65 % tổng số thu đoàn phí công đoàn và 100% tổng số thu khác của đơn vị.",
+                    "score": 0
+                },
+                {
+                    "text": "65% tổng số thu kinh phí công đoàn, 60 % tổng số thu đoàn phí công đoàn. 50% tổng số thu khác của đơn vị.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Quyết định số 270/QĐ-TLĐ ngày 07/3/2014 Tổng Liên đoàn Lao động Việt Nam quy định CĐCS được phân cấp thu kinh phí công đoàn phải nộp lên công đoàn cấp trên là bao nhiêu ?",
+            "id": 19,
+            "answers": [
+                {
+                    "text": "35% tổng số thu kinh phí công đoàn, 40 % tổng số thu đoàn phí công đoàn.",
+                    "score": 1
+                },
+                {
+                    "text": "40 % tổng số thu kinh phí công đoàn, 35 % tổng số thu đoàn phí công đoàn và 100% tổng số thu khác của đơn vị.",
+                    "score": 0
+                },
+                {
+                    "text": "35% tổng số thu kinh phí công đoàn, 40 % tổng số thu đoàn phí công đoàn. 50% tổng số thu khác của đơn vị.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Hướng dẫn số 258/HD-TLĐ ngày 7/3/2014 của Tổng Liên đoàn Lao động Việt Nam quy định Đoàn viên công đoàn trong các doanh nghiệp nhà nước, mức đóng đoàn phí hàng tháng bằng bao nhiêu ?",
+            "id": 20,
+            "answers": [
+                {
+                    "text": "1% tiền lương làm căn cứ đóng BHXH của đoàn viên",
+                    "score": 1
+                },
+                {
+                    "text": "1% tiền lương cơ sở theo quy định của nhà nước.",
+                    "score": 0
+                },
+                {
+                    "text": "1% tiền lương thực lĩnh (Tiền lương đã khấu trừ tiền BHXH, BHYT, BHTN, thuế thu nhập cá nhân của đoàn viên).",
+                    "score": 0
+                },
+                {
+                    "text": "Theo mức ấn định của ban chấp hành CĐCS.",
+                    "score": 0
+                }
+            ]
+        },
+
+
+
+
+        {
+            "questionText": "Hướng dẫn số 258/HD-TLĐ ngày 7/3/2014 của Tổng Liên đoàn Lao động Việt Nam quy định Đoàn viên hưởng trợ cấp Bảo hiểm Xã hội từ 01 tháng trở lên, trong thời gian đó thực hiện đóng đoàn phí công đoàn như thế nào ?",
+            "id": 21,
+            "answers": [
+                {
+                    "text": "1% tiền lương làm căn cứ đóng Bảo hiểm xã hội theo quy định của pháp luật về BHXH.",
+                    "score": 0
+                },
+                {
+                    "text": "2% tiền lương làm căn cứ đóng Bảo hiểm xã hội theo quy định của pháp luật về BHXH.",
+                    "score": 0
+                },
+                {
+                    "text": "3% tiền lương làm căn cứ đóng Bảo hiểm xã hội theo quy định của pháp luật về BHXH.",
+                    "score": 0
+                },
+                {
+                    "text": "Không phải đóng đoàn phí.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Hướng dẫn số 258/HD-TLĐ ngày 7/3/2014 của Tổng Liên đoàn Lao động Việt Nam quy định Đoàn viên công đoàn là nữ, nghỉ thai sản theo quy định được hưởng trợ cấp Bảo hiểm xã hội, trong thời gian đó thực hiện đóng đoàn phí công đoàn như thế nào?",
+            "id": 22,
+            "answers": [
+                {
+                    "text": "Đóng đoàn phí đầy đủ.",
+                    "score": 0
+                },
+                {
+                    "text": "Chỉ đóng đoàn phí 3 tháng.",
+                    "score": 0
+                },
+                {
+                    "text": "Chỉ đóng đoàn phí tháng thứ nhất.",
+                    "score": 0
+                },
+                {
+                    "text": "Không phải đóng đoàn phí.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Điều lệ Công đoàn Việt Nam khóa XI quy định Tài chính công đoàn được quản lý theo nguyên tắc nào sau đây ?",
+            "id": 23,
+            "answers": [
+                {
+                    "text": "Nguyên tắc tập trung, dân chủ.",
+                    "score": 0
+                },
+                {
+                    "text": "Nguyên tắc công khai, minh bạch.",
+                    "score": 0
+                },
+                {
+                    "text": "Nguyên tắc có phân công, phân cấp quản lý, gắn quyền hạn và trách nhiệm của công đoàn các cấp.",
+                    "score": 0
+                },
+                {
+                    "text": "Tất cả các nguyên tắc trên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Nghị định số 191/2013/NĐ-CP ngày 21/11/2013 của Chính phủ, quy định thời gian đóng kinh phí công đoàn như thế nào?",
+            "id": 24,
+            "answers": [
+                {
+                    "text": "Hàng tuần.",
+                    "score": 0
+                },
+                {
+                    "text": "Hàng tháng.",
+                    "score": 1
+                },
+                {
+                    "text": "Hàng quý.",
+                    "score": 0
+                },
+                {
+                    "text": "Cả 3 phương án trên.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": ">Quyết định số 269/QĐ-TLĐ ngày 7/3/2014 của Tổng Liên đoàn Lao động Việt Nam quy định, CĐCS phải thực hiện báo cáo quyết toán thu, chi tài chính công đoàn theo kỳ kế toán nào sau đây?",
+            "id": 25,
+            "answers": [
+                {
+                    "text": "Kỳ tháng.",
+                    "score": 0
+                },
+                {
+                    "text": "Kỳ quý",
+                    "score": 0
+                },
+                {
+                    "text": "Kỳ 6 tháng.",
+                    "score": 1
+                },
+                {
+                    "text": "Kỳ năm",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Quyết định số 272/QĐ-TLĐ ngày 7/3/2014 của Tổng Liên đoàn Lao động Việt Nam quy định tỷ lệ phân bổ 60% cho mục chi hoạt động phong trào của công đoàn cơ sở được trích lại từ nguồn thu kinh phí công đoàn và đoàn phí, CĐCS được chi hỗ trợ du lịch và trợ cấp khó khăn theo mức nào sau đây?",
+            "id": 26,
+            "answers": [
+                {
+                    "text": "Chi hỗ trợ du lịch không quá 10% và chi trợ cấp khó khăn không quá 10%.",
+                    "score": 1
+                },
+                {
+                    "text": "Chi hỗ trợ du lịch không quá 20% và chi trợ cấp khó khăn không quá 10%.",
+                    "score": 0
+                },
+                {
+                    "text": "Chi hỗ trợ du lịch không quá 30% và chi trợ cấp khó khăn không quá 10%.",
+                    "score": 0
+                },
+                {
+                    "text": "Chi hỗ trợ du lịch không quá 20% và chi trợ cấp khó khăn không quá 20%.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Câu 27. Hướng dẫn số 258/HD-TLĐ ngày 7/3/2014 của Tổng Liên đoàn Lao động Việt Nam quy định Đoàn viên công đoàn trong các cơ quan, đơn vị, tổ chức... hưởng lương theo chế độ tiền lương do Nhà nước quy định, mức đóng đoàn phí hàng tháng bằng bao nhiêu phần trăm?",
+            "id": 27,
+            "answers": [
+                {
+                    "text": "1% tiền lương làm căn cứ đóng BHXH.",
+                    "score": 1
+                },
+                {
+                    "text": "1% tiền lương cấp bậc, chức vụ, lương theo hợp đồng lao động, hợp đồng làm việc và các khoản phụ cấp chức vụ, phụ cấp khu vực, phụ cấp thâm niên vượt khung, phụ cấp thâm niên nghề (nếu có).",
+                    "score": 0
+                },
+                {
+                    "text": "1% tiền lương và các khoản phụ cấp chức vụ, phụ cấp thâm niên vượt khung, phụ cấp thâm niên nghề (nếu có).",
+                    "score": 0
+                },
+                {
+                    "text": "1% tiền lương thực lĩnh.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Quyết định số 272/QĐ-TLĐ ngày 7/3/2014 của Tổng Liên đoàn Lao động Việt Nam quy định CĐCS được phân bổ tỷ lệ nguồn thu kinh phí và đoàn phí công đoàn (Phần CĐCS được phân phối) cho các khoản, mục chi như thế nào?",
+            "id": 28,
+            "answers": [
+                {
+                    "text": "Chi lương, phụ cấp cán bộ công đoàn chuyên trách và phụ cấp cán bộ công đoàn không quá 10%; Chi quản lý hành chính không quá 10%; Chi hoạt động phong trào 60%.",
+                    "score": 0
+                },
+                {
+                    "text": "Chi lương, phụ cấp cán bộ công đoàn chuyên trách và phụ cấp cán bộ công đoàn không quá 20%; Chi quản lý hành chính không quá 10%; Chi hoạt động phong trào 60%.",
+                    "score": 0
+                },
+                {
+                    "text": "Chi lương, phụ cấp cán bộ công đoàn chuyên trách và phụ cấp cán bộ công đoàn không quá 30%; Chi quản lý hành chính không quá 10%; Chi hoạt động phong trào 60%.",
+                    "score": 1
+                },
+                {
+                    "text": "Chi lương, phụ cấp cán bộ công đoàn chuyên trách và phụ cấp cán bộ công đoàn không quá 40%; Chi quản lý hành chính không quá 10%; Chi hoạt động phong trào 60%.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Luật Công đoàn năm 2012 quy định về công tác kiểm tra, giám sát tài chính công đoàn như thế nào?",
+            "id": 29,
+            "answers": [
+                {
+                    "text": "Công đoàn cấp trên hướng dẫn, kiểm tra và giám sát việc thực hiện công tác tài chính của công đoàn cấp dưới theo quy định của Pháp luật và quy định của Tổng Liên đoàn Lao động Việt Nam.",
+                    "score": 0
+                },
+                {
+                    "text": "Cơ quan kiểm tra của Công đoàn kiểm tra việc quản lý, sử dụng tài chính của Công đoàn theo quy định của Pháp luật và quy định của Tổng Liên đoàn Lao động Việt Nam.",
+                    "score": 0
+                },
+                {
+                    "text": "Cơ quan Nhà nước có thẩm quyền giám sát, kiểm tra, thanh tra, kiểm toán việc quản lý, sử dụng tài chính của Công đoàn theo quy định của Pháp luật.",
+                    "score": 0
+                },
+                {
+                    "text": "Cả ba trường hợp trên.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "iều lệ Công đoàn Việt Nam (Khóa XI) quy định CĐCS có tối thiểu bao nhiêu nữ đoàn viên thì được thành lập ban nữ công quần chúng?",
+            "id": 30,
+            "answers": [
+                {
+                    "text": "07 nữ đoàn viên.",
+                    "score": 0
+                },
+                {
+                    "text": "10 nữ đoàn viên.",
+                    "score": 1
+                },
+                {
+                    "text": "15 nữ đoàn viên.",
+                    "score": 0
+                },
+                {
+                    "text": "20 nữ đoàn viên.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Điều lệ Công đoàn Việt Nam khóa XI quy định Ban nữ công quần chúng của CĐCS do cấp nào ra quyết định thành lập?",
+            "id": 31,
+            "answers": [
+                {
+                    "text": "Tổng Liên đoàn Lao động Việt Nam.",
+                    "score": 0
+                },
+                {
+                    "text": "Liên đoàn Lao động tỉnh/Thành phố.",
+                    "score": 0
+                },
+                {
+                    "text": "Liên đoàn Lao động huyện, thành phố.",
+                    "score": 0
+                },
+                {
+                    "text": "Ban Chấp hành Công đoàn cơ sở.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "questionText": "Điều lệ Công đoàn Việt Nam khóa XI quy định Tổ, nhóm nữ công được thành lập ở tổ công đoàn, có từ bao nhiêu nữ đoàn viên trở lên?",
+            "id": 32,
+            "answers": [
+                {
+                    "text": "02 nữ đoàn viên.",
+                    "score": 0
+                },
+                {
+                    "text": "03 nữ đoàn viên.",
+                    "score": 0
+                },
+                {
+                    "text": "05 nữ đoàn viên.",
+                    "score": 1
+                },
+                {
+                    "text": "07 nữ đoàn viên.",
+                    "score": 0
+                }
+            ]
+        }
+    ]
+}
