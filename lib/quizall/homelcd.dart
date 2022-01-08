@@ -1,7 +1,7 @@
-import '/quizbhxh/quizlcd.dart';
+import '/quizall/quizlcd.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '/quizbhxh/scoreStorage.dart';
+import '/quizall/scoreStorage.dart';
 
 class HomePagelcd extends StatefulWidget {
   @override

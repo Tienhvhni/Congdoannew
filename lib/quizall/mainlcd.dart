@@ -1,12 +1,13 @@
+import 'package:congdoan/quizall/homelcd.dart';
 import 'package:flutter/material.dart';
-import '/quizbhxh/homebhxh.dart';
+import '/quizall/homebhxh.dart';
 
 void main() {
-  runApp(QuizbhxhScreen());
+  runApp(QuizlcdScreen());
 }
 
-class QuizbhxhScreen extends StatelessWidget {
-  const QuizbhxhScreen({Key? key}) : super(key: key);
+class QuizlcdScreen extends StatelessWidget {
+  const QuizlcdScreen({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,7 +16,7 @@ class QuizbhxhScreen extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePagebhxh(),
+      home: HomePagelcd(),
     );
   }
 }

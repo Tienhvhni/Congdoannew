@@ -61,9 +61,9 @@ import 'package:congdoan/htmlload_luatcongdoan/HtmlLoadlcdc5.dart';
 import 'package:congdoan/htmlload_luatcongdoan/HtmlLoadlcdc6.dart';
 import '/Ldcdoanmain.dart';
 
-import 'quizbhxh/mainbhxh.dart';
-import 'quizbhxh/mainlld.dart';
-import 'quizbhxh/mainlcd.dart';
+import 'quizall/mainbhxh.dart';
+import 'quizall/mainlld.dart';
+import 'quizall/mainlcd.dart';
 
 
 
@@ -141,7 +141,7 @@ void main() {
         '/htmlLoadlcdc5': (context) => const HtmlLoadlcdc5Screen(),
         '/htmlLoadlcdc6': (context) => const HtmlLoadlcdc6Screen(),
         '/ldcd': (context) => const LdcdScreen(),
-        '/quizbhxh': (context) => const QuizbhxhScreen(),
+        '/quizall': (context) => const QuizbhxhScreen(),
         '/quizlcd': (context) => const QuizlcdScreen(),
         '/quizlld': (context) => const QuizlldScreen(),
 
