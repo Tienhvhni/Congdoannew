@@ -88,18 +88,6 @@ class Dslanhdao extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final planetThumbnail = Container(
-      margin: EdgeInsets.symmetric(
-          vertical: 16.0
-      ),
-      alignment: FractionalOffset.centerRight,
-      child: Image(
-        image: AssetImage(hoso.image),
-        height: 140.0,
-        width: 140.0,
-      ),
-    );
-
     final baseTextStyle = const TextStyle(
         fontFamily: 'Poppins'
     );
@@ -161,7 +149,17 @@ class Dslanhdao extends StatelessWidget {
       ),
     );
 
-
+    final planetThumbnail = Container(
+      margin: EdgeInsets.symmetric(
+          vertical: 16.0
+      ),
+      alignment: FractionalOffset.centerRight,
+      child: Image(
+        image: AssetImage(hoso.image),
+        height: 140.0,
+        width: 140.0,
+      ),
+    );
     return Container(
         height: 120.0,
         margin: const EdgeInsets.symmetric(
@@ -232,8 +230,8 @@ List<Hoso> dsldaocd = [
   ),
   const Hoso(
     id: "6",
-    chucdanh: "Lê Thị Thanh Hằng",
-    hoten: "UVBCH CĐ",
+    chucdanh: "UVBCH CĐ",
+    hoten: "Lê Thị Thanh Hằng",
     dienthoai: "094 345 6955",
     email:"hanglt1@vnpt.vn",
     image: "assets/ldaocdoan/hangbtd.jpg",
