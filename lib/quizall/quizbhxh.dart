@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:async';
-import 'homebhxh.dart';
+import 'mainbhxh.dart';
 
-class Quiz extends StatefulWidget {
+class Quiz_bhxh extends StatefulWidget {
   @override
   _QuizState createState() => _QuizState();
 }
 
-class _QuizState extends State<Quiz> {
+class _QuizState extends State<Quiz_bhxh> {
   @override
   void initState() {
     _populateScoreArray();
@@ -89,7 +89,7 @@ class _QuizState extends State<Quiz> {
       },
       child: Scaffold(
           appBar: AppBar(
-            title: Text('Câu hỏi ${_questionIndex + 1}'),
+            title: Text('${_questionIndex + 1}'),
             backgroundColor: Colors.indigo[400],
           ),
           body: SingleChildScrollView(

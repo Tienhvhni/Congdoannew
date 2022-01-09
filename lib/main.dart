@@ -134,9 +134,9 @@ void main() {
         '/htmlLoadlcdc5': (context) => const HtmlLoadlcdc5Screen(),
         '/htmlLoadlcdc6': (context) => const HtmlLoadlcdc6Screen(),
         '/ldcd': (context) => const LdcdScreen(),
-        '/quizall': (context) => const QuizbhxhScreen(),
-        '/quizlcd': (context) => const QuizlcdScreen(),
-        '/quizlld': (context) => const QuizlldScreen(),
+        '/quizbhxh': (context) => HomePagebhxh(),
+        '/quizlcd': (context) => HomePagelcd(),
+        '/quizlld': (context) => HomePagelld(),
 
       },
     ),

@@ -69,7 +69,7 @@ class QuizmainScreen extends StatelessWidget {
                           child: ElevatedButton.icon(
                             onPressed: () {
                               // Navigate to the second screen using a named route.
-                              Navigator.pushNamed(context, '/quizall');
+                              Navigator.pushNamed(context, '/quizbhxh');
                             },
                             label: Text('QUIZ-LUẬT BHXH',textAlign: TextAlign.center,),
                             icon: Icon(Icons.arrow_right),

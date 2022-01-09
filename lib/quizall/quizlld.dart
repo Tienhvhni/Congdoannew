@@ -2,14 +2,15 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:async';
-import 'homelld.dart';
 
-class Quiz extends StatefulWidget {
+import 'mainlld.dart';
+
+class Quiz_lld extends StatefulWidget {
   @override
   _QuizState createState() => _QuizState();
 }
 
-class _QuizState extends State<Quiz> {
+class _QuizState extends State<Quiz_lld> {
   @override
   void initState() {
     _populateScoreArray();
@@ -89,7 +90,7 @@ class _QuizState extends State<Quiz> {
       },
       child: Scaffold(
           appBar: AppBar(
-            title: Text('Câu hỏi ${_questionIndex + 1}'),
+            title: Text('${_questionIndex + 1}'),
             backgroundColor: Colors.indigo[400],
           ),
           body: SingleChildScrollView(
