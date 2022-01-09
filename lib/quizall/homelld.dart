@@ -90,7 +90,6 @@ class _HomePageState extends State<HomePagelld> {
             ],
           ),
         ),
-        centerTitle: true,
         backgroundColor: Colors.indigo[400],
       ),
       body: SingleChildScrollView(

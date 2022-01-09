@@ -159,6 +159,7 @@ class MainScreen extends StatelessWidget {
         home: Scaffold(
             backgroundColor: Color(0xFF1264B6),
             body: Center(
+            child: SingleChildScrollView(
                 child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -266,7 +267,7 @@ class MainScreen extends StatelessWidget {
                             style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic,color: Colors.yellow),
                           )),
 
-                    ]))));
+                    ])))));
   }
 }
 

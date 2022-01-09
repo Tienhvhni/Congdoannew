@@ -11,6 +11,17 @@ class HtmlLoadlldc14Screen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
+            appBar: AppBar(
+              title: Text("Sổ tay công đoàn VNPT"),
+              leading: IconButton(
+                  icon: Icon(Icons.arrow_left),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  }
+              ),
+              automaticallyImplyLeading : true,
+              centerTitle: true,
+            ),
             body: WebViewLoad()
 
         )

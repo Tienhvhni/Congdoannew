@@ -39,7 +39,12 @@ var tieude = "test tieu de";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(tieude)),
+      leading: IconButton(
+          icon: Icon(Icons.arrow_left),
+          onPressed: () {
+            Navigator.pop(context);
+          }
+      ),
       body: WebView(
         initialUrl: '',
         javascriptMode: JavascriptMode.unrestricted,

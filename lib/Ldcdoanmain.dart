@@ -6,6 +6,17 @@ class LdcdScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("Sổ tay công đoàn VNPT"),
+        leading: IconButton(
+            icon: Icon(Icons.arrow_left),
+            onPressed: () {
+              Navigator.pop(context);
+            }
+        ),
+        automaticallyImplyLeading : true,
+        centerTitle: true,
+      ),
       body: Column(
         children: <Widget>[
           GradientAppBar("Lãnh đạo công đoàn VNPT Hà Nội"),

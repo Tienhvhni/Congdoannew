@@ -5,8 +5,20 @@ class LuatScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
+            appBar: AppBar(
+              title: Text("Sổ tay công đoàn VNPT"),
+              leading: IconButton(
+                  icon: Icon(Icons.arrow_left),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  }
+              ),
+              automaticallyImplyLeading : true,
+              centerTitle: true,
+            ),
             backgroundColor: Color(0xFF1264B6),
             body: Center(
+            child: SingleChildScrollView(
                 child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -116,6 +128,6 @@ class LuatScreen extends StatelessWidget {
                             style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic,color: Colors.yellow),
                           )),
 
-                    ]))));
+                    ])))));
   }
 }
