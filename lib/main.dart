@@ -8,7 +8,7 @@ import '/luatbhxh.dart';
 import '/luatcongdoan2012.dart';
 import '/qcdcvnpt.dart';
 import '/tuldttvnpt.dart';
-import 'fives.dart';
+import '/fives.dart';
 import 'htmlload_fives/HtmlLoadfivesp1.dart';
 import 'package:congdoan/htmlload_fives/HtmlLoadfivesp1.dart';
 import 'package:congdoan/htmlload_fives/HtmlLoadfivesp2.dart';
@@ -60,17 +60,10 @@ import 'package:congdoan/htmlload_luatcongdoan/HtmlLoadlcdc4.dart';
 import 'package:congdoan/htmlload_luatcongdoan/HtmlLoadlcdc5.dart';
 import 'package:congdoan/htmlload_luatcongdoan/HtmlLoadlcdc6.dart';
 import '/Ldcdoanmain.dart';
-
 import 'quizall/mainbhxh.dart';
 import 'quizall/mainlld.dart';
 import 'quizall/mainlcd.dart';
 
-
-
-
-void printMSG() {
-  print('Elevated Button Clicked...');
-}
 void main() {
   runApp(
     MaterialApp(
@@ -204,18 +197,7 @@ class MainScreen extends StatelessWidget {
                               //border width and color
                             ),
                           )),
-                      Container(
-                          margin: const EdgeInsets.all(5),
-                          child: ElevatedButton.icon(
-                            onPressed: printMSG,
-                            label: Text('TÍNH THUẾ THU NHẬP CÁ NHÂN',textAlign: TextAlign.center,),
-                            icon: Icon(Icons.arrow_right),
-                            style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 151, 5, 63),
-                              minimumSize: Size.fromHeight(40),
-                              //border width and color
-                            ),
-                          )),
+
                       Container(
                           margin: const EdgeInsets.all(5),
                           child: ElevatedButton.icon(

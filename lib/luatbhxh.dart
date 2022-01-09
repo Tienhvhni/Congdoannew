@@ -6,7 +6,7 @@ class LuatbhxhScreen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("Sổ tay công đoàn VNPT"),
+              title: Text("Sổ tay Công Đoàn VNPT"),
               leading: IconButton(
                   icon: Icon(Icons.arrow_left),
                   onPressed: () {
@@ -170,21 +170,6 @@ class LuatbhxhScreen extends StatelessWidget {
                             ),
                           )),
                       Container(
-                          margin: const EdgeInsets.only(left: 120, top: 5, right: 120),
-                          child: ElevatedButton.icon(
-                            onPressed: () {
-                              // Navigate to the second screen using a named route.
-                              Navigator.pop(context);
-                            },
-                            label: Text('Quay lại...',textAlign: TextAlign.center,),
-                            icon: Icon(Icons.arrow_left),
-                            style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 252, 70, 70),
-                              minimumSize: Size.fromHeight(40),
-                              //border width and color
-                            ),
-                          )),
-                      Container(
                           margin: const EdgeInsets.all(5),
                           child: Text(
                             '©2021 - BCH Công đoàn TTVT9-VNPT Hà Nội',textAlign: TextAlign.center,
@@ -192,7 +177,7 @@ class LuatbhxhScreen extends StatelessWidget {
                           )),
 
                     ])
-            ))
+       ))
         ));
   }
 }

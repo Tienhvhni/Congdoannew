@@ -12,7 +12,7 @@ class Htmlloadtuldttc2Screen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("Sổ tay công đoàn VNPT"),
+              title: Text("THOẢ ƯỚC LAO ĐỘNG TẬP THỂ"),
               leading: IconButton(
                   icon: Icon(Icons.arrow_left),
                   onPressed: () {
@@ -46,11 +46,9 @@ class WebViewLoadUI extends State<WebViewLoad>{
         mimeType: 'text/html', encoding: Encoding.getByName('utf-8'))
         .toString());
   }
-var tieude = "THOẢ ƯỚC LAO ĐỘNG TẬP THỂ";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(tieude)),
       body: WebView(
         initialUrl: '',
         javascriptMode: JavascriptMode.unrestricted,

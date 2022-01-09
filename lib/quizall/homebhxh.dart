@@ -1,13 +1,13 @@
+import '../quizmain.dart';
 import '/quizall/quizbhxh.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '/quizall/scoreStorage.dart';
-
+import '/main.dart';
 class HomePagebhxh extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
 }
-
 class _HomePageState extends State<HomePagebhxh> {
   ScoreStorage score = ScoreStorage();
   @override
@@ -72,25 +72,20 @@ class _HomePageState extends State<HomePagebhxh> {
       }
     });
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: RichText(
-          text: TextSpan(
-            children: [
-              WidgetSpan(
-                child: Icon(Icons.question_answer_rounded, size: 22),
-              ),
-              TextSpan(
-                  text: "10 Câu hỏi trắc nghiệm Luật BHXH",
-                  style:
-                      TextStyle(fontSize: 16.0, color: Colors.red,fontWeight: FontWeight.bold)),
-            ],
-          ),
+        title: Text("10 Câu hỏi trắc nghiệm luật BHXH"),
+        leading: IconButton(
+            icon: Icon(Icons.arrow_left),
+          onPressed: () {
+            // Navigate to the second screen using a named route.
+            Navigator.pop(context,);
+          },
         ),
-        backgroundColor: Colors.indigo[400],
+        automaticallyImplyLeading : true,
+        centerTitle: true,
       ),
       body: SingleChildScrollView(
         child:

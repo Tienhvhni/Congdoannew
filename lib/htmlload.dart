@@ -39,11 +39,16 @@ var tieude = "test tieu de";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      leading: IconButton(
-          icon: Icon(Icons.arrow_left),
-          onPressed: () {
-            Navigator.pop(context);
-          }
+      appBar: AppBar(
+        title: Text("Sổ tay công đoàn VNPT"),
+        leading: IconButton(
+            icon: Icon(Icons.arrow_left),
+            onPressed: () {
+              Navigator.pop(context);
+            }
+        ),
+        automaticallyImplyLeading : true,
+        centerTitle: true,
       ),
       body: WebView(
         initialUrl: '',

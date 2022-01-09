@@ -77,20 +77,14 @@ class _HomePageState extends State<HomePagelld> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: RichText(
-          text: TextSpan(
-            children: [
-              WidgetSpan(
-                child: Icon(Icons.question_answer_rounded, size: 20),
-              ),
-              TextSpan(
-                  text: "10 Câu hỏi trắc nghiệm Luật lao động",
-                  style:
-                      TextStyle(fontSize: 16.0, color: Colors.red,fontWeight: FontWeight.bold)),
-            ],
-          ),
+        title: Text("10 câu hỏi trắc nghiệm Luật lao động"),
+        leading: IconButton(
+            icon: Icon(Icons.arrow_left),
+            onPressed: () {
+              Navigator.pop(context);
+            }
         ),
-        backgroundColor: Colors.indigo[400],
+        automaticallyImplyLeading : true,
       ),
       body: SingleChildScrollView(
         child:

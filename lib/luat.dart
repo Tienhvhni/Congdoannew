@@ -6,7 +6,7 @@ class LuatScreen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("Sổ tay công đoàn VNPT"),
+              title: Text("Các bộ luật văn bản quan trọng"),
               leading: IconButton(
                   icon: Icon(Icons.arrow_left),
                   onPressed: () {
@@ -14,7 +14,6 @@ class LuatScreen extends StatelessWidget {
                   }
               ),
               automaticallyImplyLeading : true,
-              centerTitle: true,
             ),
             backgroundColor: Color(0xFF1264B6),
             body: Center(
@@ -26,12 +25,7 @@ class LuatScreen extends StatelessWidget {
                         margin: const EdgeInsets.all(5),
                         child: Image.asset('assets/congdoan.png',scale: 2),
                       ),
-                      Container(
-                          margin: const EdgeInsets.all(5),
-                          child: Text(
-                            'Các bộ luật văn bản quan trọng',textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold,color: Colors.white),
-                          )),
+
                       Container(
                           margin: const EdgeInsets.all(5),
                           child: ElevatedButton.icon(
@@ -107,25 +101,10 @@ class LuatScreen extends StatelessWidget {
                             ),
                           )),
                       Container(
-                          margin: const EdgeInsets.only(left: 120, top: 5, right: 120),
-                          child: ElevatedButton.icon(
-                            onPressed: () {
-                              // Navigate to the second screen using a named route.
-                              Navigator.pop(context);
-                            },
-                            label: Text('Quay lại...',textAlign: TextAlign.center,),
-                            icon: Icon(Icons.arrow_left),
-                            style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 252, 70, 70),
-                              minimumSize: Size.fromHeight(40),
-                              //border width and color
-                            ),
-                          )),
-                      Container(
                           margin: const EdgeInsets.all(5),
                           child: Text(
                             '©2021 - BCH Công đoàn TTVT9-VNPT Hà Nội',textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic,color: Colors.yellow),
+                            style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic,color: Colors.white),
                           )),
 
                     ])))));

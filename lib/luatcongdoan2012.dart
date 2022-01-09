@@ -124,22 +124,6 @@ class Luatcongdoan2012Screen extends StatelessWidget {
                               //border width and color
                             ),
                           )),
-
-                      Container(
-                          margin: const EdgeInsets.only(left: 120, top: 5, right: 120),
-                          child: ElevatedButton.icon(
-                            onPressed: () {
-                              // Navigate to the second screen using a named route.
-                              Navigator.pop(context);
-                            },
-                            label: Text('Quay lại...',textAlign: TextAlign.center,),
-                            icon: Icon(Icons.arrow_left),
-                            style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 252, 70, 70),
-                              minimumSize: Size.fromHeight(40),
-                              //border width and color
-                            ),
-                          )),
                       Container(
                           margin: const EdgeInsets.all(5),
                           child: Text(

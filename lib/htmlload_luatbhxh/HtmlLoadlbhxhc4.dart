@@ -11,6 +11,17 @@ class HtmlLoadlbhxhc4Screen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
+            appBar: AppBar(
+              title: Text("LUẬT BHXH NĂM 2014"),
+              leading: IconButton(
+                  icon: Icon(Icons.arrow_left),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  }
+              ),
+              automaticallyImplyLeading : true,
+              centerTitle: true,
+            ),
             body: WebViewLoad()
 
         )
@@ -35,11 +46,10 @@ class WebViewLoadUI extends State<WebViewLoad>{
         mimeType: 'text/html', encoding: Encoding.getByName('utf-8'))
         .toString());
   }
-var tieude = "LUẬT BẢO HIỂN XÃ HỘI NĂM 2014";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(tieude)),
       body: WebView(
         initialUrl: '',
         javascriptMode: JavascriptMode.unrestricted,
