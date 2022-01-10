@@ -2,17 +2,14 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:async';
+import 'homelcd.dart';
 
-import 'mainlcd.dart';
-
-class quiz_lcd extends StatefulWidget {
-  const quiz_lcd({Key? key}) : super(key: key);
-
+class Quiz extends StatefulWidget {
   @override
   _QuizState createState() => _QuizState();
 }
 
-class _QuizState extends State<quiz_lcd> {
+class _QuizState extends State<Quiz> {
   @override
   void initState() {
     _populateScoreArray();
@@ -78,7 +75,7 @@ class _QuizState extends State<quiz_lcd> {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
-        if (_questionIndex == 0) {
+        if (this._questionIndex == 0) {
           return true;
         } else {
           _questionIndex = _questionIndex - 1;
@@ -92,7 +89,7 @@ class _QuizState extends State<quiz_lcd> {
       },
       child: Scaffold(
           appBar: AppBar(
-            title: Text('${_questionIndex + 1}'),
+            title: Text('Câu hỏi ${_questionIndex + 1}'),
             backgroundColor: Colors.indigo[400],
           ),
           body: SingleChildScrollView(
@@ -137,25 +134,25 @@ class _QuizState extends State<quiz_lcd> {
                                       onPressed: _answerQuestion,
                                       textColor: Colors.white,
                                       color: Colors.indigo[400],
-                                      shape: const StadiumBorder(),
+                                      shape: StadiumBorder(),
                                       child: Text(
                                         _questionIndex == _questions.length - 1
                                             ? "Kết thúc"
                                             : "Tiếp theo",
-                                        style: const TextStyle(
+                                        style: TextStyle(
                                             fontSize: 18.0,
                                             color: Colors.white),
                                           textAlign: TextAlign.justify,
                                       ),
-                                      padding: const EdgeInsets.all(10.0),
+                                      padding: EdgeInsets.all(10.0),
                                     )
-                                  : const SizedBox(),
+                                  : SizedBox(),
                             ],
                           );
                         } else if (snapshot.hasError) {
                           return Text('Error: ${snapshot.error}');
                         } else {
-                          return const CircularProgressIndicator();
+                          return CircularProgressIndicator();
                         }
                       }),
                 ],

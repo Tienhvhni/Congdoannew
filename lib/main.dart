@@ -1,4 +1,7 @@
 import 'package:congdoan/fives.dart';
+import 'package:congdoan/quizall/homebhxh.dart';
+import 'package:congdoan/quizall/homelcd.dart';
+import 'package:congdoan/quizall/homelld.dart';
 import 'package:flutter/material.dart';
 import '/about.dart';
 import '/luat.dart';
@@ -134,9 +137,9 @@ void main() {
         '/htmlLoadlcdc5': (context) => const HtmlLoadlcdc5Screen(),
         '/htmlLoadlcdc6': (context) => const HtmlLoadlcdc6Screen(),
         '/ldcd': (context) => const LdcdScreen(),
-        '/quizbhxh': (context) => const HomePagebhxh(),
-        '/quizlcd': (context) => const HomePagelcd(),
-        '/quizlld': (context) => const HomePagelld(),
+        '/quizbhxh': (context) => HomePagebhxh(),
+        '/quizlcd': (context) => HomePagelcd(),
+        '/quizlld': (context) => HomePagelld(),
 
       },
     ),
