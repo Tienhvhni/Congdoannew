@@ -12,7 +12,7 @@ class HtmlLoadfivesp1Screen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: const Text("PHƯƠNG PHÁP 5S"),
+              title: const Text("Phương pháp 5S"),
               leading: IconButton(
                   icon: const Icon(Icons.arrow_back_ios_new),
                   onPressed: () {
@@ -20,10 +20,8 @@ class HtmlLoadfivesp1Screen extends StatelessWidget {
                   }
               ),
               automaticallyImplyLeading : true,
-              centerTitle: true,
             ),
             body: const WebViewLoad()
-
         )
     );
   }
