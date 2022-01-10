@@ -26,7 +26,7 @@ class QcdcvnptScreen extends StatelessWidget {
                     children: [
                       Container(
                         margin: const EdgeInsets.all(5),
-                        child: Image.asset('assets/logovnpt2.png',scale: 3),
+                        child: Image.asset('assets/logovnpt2.png',scale: 3.5),
                       ),
                       Container(
                           margin: const EdgeInsets.all(5),
@@ -112,7 +112,7 @@ class QcdcvnptScreen extends StatelessWidget {
                       Container(
                           margin: const EdgeInsets.all(5),
                           child: const Text(
-                            '©2021 - BCH Công đoàn TTVT9-VNPT Hà Nội',textAlign: TextAlign.center,
+                            '©2021 - BCH Công đoàn VNPT Hà Nội',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic,color: Colors.yellow),
                           )),
 

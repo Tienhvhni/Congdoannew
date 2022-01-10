@@ -25,7 +25,7 @@ class QuizmainScreen extends StatelessWidget {
                     children: [
                       Container(
                         margin: const EdgeInsets.all(5),
-                        child: Image.asset('assets/congdoan.png',scale: 2),
+                        child: Image.asset('assets/congdoan.png',scale: 1.5),
                       ),
                       Container(
                           margin: const EdgeInsets.all(5),
@@ -82,7 +82,7 @@ class QuizmainScreen extends StatelessWidget {
                       Container(
                           margin: const EdgeInsets.all(5),
                           child: const Text(
-                            '©2021 - BCH Công đoàn TTVT9-VNPT Hà Nội',textAlign: TextAlign.center,
+                            '©2021 - BCH Công đoàn VNPT Hà Nội',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic,color: Colors.yellow),
                           )),
 

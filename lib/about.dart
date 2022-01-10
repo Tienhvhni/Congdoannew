@@ -25,7 +25,7 @@ class AboutScreen extends StatelessWidget {
                       Container(
                           margin: const EdgeInsets.all(5),
                           child: const Text(
-                            'BCH CÔNG ĐOÀN TTVT9-VNPT HÀ NỘI',textAlign: TextAlign.center,
+                            'BCH CÔNG ĐOÀN VNPT HÀ NỘI',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold,color: Colors.yellow),
                           )),
                       Container(
@@ -36,17 +36,10 @@ class AboutScreen extends StatelessWidget {
                         margin: const EdgeInsets.all(5),
                         child: Image.asset('assets/cdvnpthni.png',scale: 2),
                       ),
-
                       Container(
                           margin: const EdgeInsets.all(5),
                           child: const Text(
-                            'Liên hệ: Hồ Tiến, Tel +84913201781, Email: Tienhv.hni@vnpt.vn',textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold,color: Colors.white),
-                          )),
-                      Container(
-                          margin: const EdgeInsets.all(5),
-                          child: const Text(
-                            '©2021 - BCH Công đoàn TTVT9-VNPT Hà Nội All rights reserved',textAlign: TextAlign.center,
+                            '©2021 - BCH Công đoàn VNPT Hà Nội - All rights reserved',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 14, fontWeight: FontWeight.normal,color: Colors.white),
                           )),
                     ])))));
