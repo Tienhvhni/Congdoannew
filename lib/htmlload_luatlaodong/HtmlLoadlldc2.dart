@@ -12,9 +12,9 @@ class HtmlLoadlldc2Screen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("LUẬT LAO ĐỘNG NĂM 2019"),
+              title: const Text("LUẬT LAO ĐỘNG NĂM 2019"),
               leading: IconButton(
-                  icon: Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_left),
                   onPressed: () {
                     Navigator.pop(context);
                   }
@@ -30,7 +30,10 @@ class HtmlLoadlldc2Screen extends StatelessWidget {
 }
 
 class WebViewLoad extends StatefulWidget {
+  const WebViewLoad({Key? key}) : super(key: key);
 
+
+  @override
   WebViewLoadUI createState() => WebViewLoadUI();
 
 }

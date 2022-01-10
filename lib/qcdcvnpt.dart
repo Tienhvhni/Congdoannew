@@ -6,9 +6,9 @@ class QcdcvnptScreen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("Sổ tay công đoàn VNPT"),
+              title: const Text("Sổ tay công đoàn VNPT"),
               leading: IconButton(
-                  icon: Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_left),
                   onPressed: () {
                     Navigator.pop(context);
                   }
@@ -16,7 +16,7 @@ class QcdcvnptScreen extends StatelessWidget {
               automaticallyImplyLeading : true,
               centerTitle: true,
             ),
-            backgroundColor: Color(0xFF1264B6),
+            backgroundColor: const Color(0xFF1264B6),
 
             body: Center(
             child: SingleChildScrollView(
@@ -30,7 +30,7 @@ class QcdcvnptScreen extends StatelessWidget {
                       ),
                       Container(
                           margin: const EdgeInsets.all(5),
-                          child: Text(
+                          child: const Text(
                             'QUY CHẾ DÂN CHỦ \nỞ TẬP ĐOÀN BƯU CHÍNH VIỄN THÔNG VIỆT NAM\n(Ban hành kèm theo Quyết định số 196/QĐ-VNPT-TCNL ngày 12 tháng 3 năm 2021 của Tổng giám đốc VNPT)',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold,color: Colors.white),
                           )),
@@ -41,11 +41,11 @@ class QcdcvnptScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/htmlLoadqcdcc1');
                             },
-                            label: Text('CHƯƠNG I. NHỮNG QUY ĐỊNH CHUNG',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('CHƯƠNG I. NHỮNG QUY ĐỊNH CHUNG',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -56,11 +56,11 @@ class QcdcvnptScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/htmlLoadqcdcc2');
                             },
-                            label: Text('CHƯƠNG II.TỔ CHỨC ĐỐI THOẠI TẠI NƠI LÀM VIỆC',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('CHƯƠNG II.TỔ CHỨC ĐỐI THOẠI TẠI NƠI LÀM VIỆC',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -71,11 +71,11 @@ class QcdcvnptScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/htmlLoadqcdcc3');
                             },
-                            label: Text('CHƯƠNG III. THỰC HIỆN QUY CHẾ DÂN CHỦ Ở CƠ SỞ TẠI NƠI LÀM VIỆC',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('CHƯƠNG III. THỰC HIỆN QUY CHẾ DÂN CHỦ Ở CƠ SỞ TẠI NƠI LÀM VIỆC',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -86,11 +86,11 @@ class QcdcvnptScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/htmlLoadqcdcc4');
                             },
-                            label: Text('CHƯƠNG IV.TỔ CHỨC THỰC HIỆN',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('CHƯƠNG IV.TỔ CHỨC THỰC HIỆN',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -101,17 +101,17 @@ class QcdcvnptScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/htmlLoadqcdcphuluc');
                             },
-                            label: Text('PHỤ LỤC',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('PHỤ LỤC',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
                       Container(
                           margin: const EdgeInsets.all(5),
-                          child: Text(
+                          child: const Text(
                             '©2021 - BCH Công đoàn TTVT9-VNPT Hà Nội',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic,color: Colors.yellow),
                           )),

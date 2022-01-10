@@ -9,7 +9,7 @@ class HtmlloadScreen extends StatelessWidget {
   const HtmlloadScreen({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
         home: Scaffold(
             body: WebViewLoad()
         )
@@ -18,7 +18,10 @@ class HtmlloadScreen extends StatelessWidget {
 }
 
 class WebViewLoad extends StatefulWidget {
+  const WebViewLoad({Key? key}) : super(key: key);
 
+
+  @override
   WebViewLoadUI createState() => WebViewLoadUI();
 
 }
@@ -40,9 +43,9 @@ var tieude = "test tieu de";
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Sổ tay công đoàn VNPT"),
+        title: const Text("Sổ tay công đoàn VNPT"),
         leading: IconButton(
-            icon: Icon(Icons.arrow_left),
+            icon: const Icon(Icons.arrow_left),
             onPressed: () {
               Navigator.pop(context);
             }

@@ -5,12 +5,12 @@ import 'dart:async';
 
 import 'mainlcd.dart';
 
-class Quiz_lcd extends StatefulWidget {
+class quiz_lcd extends StatefulWidget {
   @override
   _QuizState createState() => _QuizState();
 }
 
-class _QuizState extends State<Quiz_lcd> {
+class _QuizState extends State<quiz_lcd> {
   @override
   void initState() {
     _populateScoreArray();
@@ -76,7 +76,7 @@ class _QuizState extends State<Quiz_lcd> {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
-        if (this._questionIndex == 0) {
+        if (_questionIndex == 0) {
           return true;
         } else {
           _questionIndex = _questionIndex - 1;
@@ -135,25 +135,25 @@ class _QuizState extends State<Quiz_lcd> {
                                       onPressed: _answerQuestion,
                                       textColor: Colors.white,
                                       color: Colors.indigo[400],
-                                      shape: StadiumBorder(),
+                                      shape: const StadiumBorder(),
                                       child: Text(
                                         _questionIndex == _questions.length - 1
                                             ? "Kết thúc"
                                             : "Tiếp theo",
-                                        style: TextStyle(
+                                        style: const TextStyle(
                                             fontSize: 18.0,
                                             color: Colors.white),
                                           textAlign: TextAlign.justify,
                                       ),
-                                      padding: EdgeInsets.all(10.0),
+                                      padding: const EdgeInsets.all(10.0),
                                     )
-                                  : SizedBox(),
+                                  : const SizedBox(),
                             ],
                           );
                         } else if (snapshot.hasError) {
                           return Text('Error: ${snapshot.error}');
                         } else {
-                          return CircularProgressIndicator();
+                          return const CircularProgressIndicator();
                         }
                       }),
                 ],

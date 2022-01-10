@@ -12,9 +12,9 @@ class HtmlLoadlbhxhc2Screen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("LUẬT BHXH NĂM 2014"),
+              title: const Text("LUẬT BHXH NĂM 2014"),
               leading: IconButton(
-                  icon: Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_left),
                   onPressed: () {
                     Navigator.pop(context);
                   }
@@ -22,7 +22,7 @@ class HtmlLoadlbhxhc2Screen extends StatelessWidget {
               automaticallyImplyLeading : true,
               centerTitle: true,
             ),
-            body: WebViewLoad()
+            body: const WebViewLoad()
 
         )
     );
@@ -30,7 +30,10 @@ class HtmlLoadlbhxhc2Screen extends StatelessWidget {
 }
 
 class WebViewLoad extends StatefulWidget {
+  const WebViewLoad({Key? key}) : super(key: key);
 
+
+  @override
   WebViewLoadUI createState() => WebViewLoadUI();
 
 }

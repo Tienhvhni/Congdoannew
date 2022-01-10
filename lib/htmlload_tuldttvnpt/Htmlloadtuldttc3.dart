@@ -12,9 +12,9 @@ class Htmlloadtuldttc3Screen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("THOẢ ƯỚC LAO ĐỘNG TẬP THỂ"),
+              title: const Text("THOẢ ƯỚC LAO ĐỘNG TẬP THỂ"),
               leading: IconButton(
-                  icon: Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_left),
                   onPressed: () {
                     Navigator.pop(context);
                   }
@@ -22,7 +22,7 @@ class Htmlloadtuldttc3Screen extends StatelessWidget {
               automaticallyImplyLeading : true,
               centerTitle: true,
             ),
-            body: WebViewLoad()
+            body: const WebViewLoad()
 
         )
     );
@@ -30,7 +30,10 @@ class Htmlloadtuldttc3Screen extends StatelessWidget {
 }
 
 class WebViewLoad extends StatefulWidget {
+  const WebViewLoad({Key? key}) : super(key: key);
 
+
+  @override
   WebViewLoadUI createState() => WebViewLoadUI();
 
 }

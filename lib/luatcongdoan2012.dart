@@ -6,9 +6,9 @@ class Luatcongdoan2012Screen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("Sổ tay công đoàn VNPT"),
+              title: const Text("Sổ tay công đoàn VNPT"),
               leading: IconButton(
-                  icon: Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_left),
                   onPressed: () {
                     Navigator.pop(context);
                   }
@@ -16,7 +16,7 @@ class Luatcongdoan2012Screen extends StatelessWidget {
               automaticallyImplyLeading : true,
               centerTitle: true,
             ),
-            backgroundColor: Color(0xFF1264B6),
+            backgroundColor: const Color(0xFF1264B6),
 
             body: Center(
             child: SingleChildScrollView(
@@ -30,7 +30,7 @@ class Luatcongdoan2012Screen extends StatelessWidget {
                       ),
                       Container(
                           margin: const EdgeInsets.all(5),
-                          child: Text(
+                          child: const Text(
                             'Luật công đoàn 2012',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold,color: Colors.white),
                           )),
@@ -41,11 +41,11 @@ class Luatcongdoan2012Screen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context,'/htmlLoadlcdc1');
                             },
-                            label: Text('Chương I. Những quy định chung',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('Chương I. Những quy định chung',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -56,11 +56,11 @@ class Luatcongdoan2012Screen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context,'/htmlLoadlcdc2');
                             },
-                            label: Text('Chương II.Quyền, trách nhiệm của công đoàn và đoàn viên công đoàn',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('Chương II.Quyền, trách nhiệm của công đoàn và đoàn viên công đoàn',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -71,11 +71,11 @@ class Luatcongdoan2012Screen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context,'/htmlLoadlcdc3');
                             },
-                            label: Text('Chương III.Trách nhiệm của nhà nước, cơ quan, tổ chức, doanh nghiệp đối với công đoàn',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('Chương III.Trách nhiệm của nhà nước, cơ quan, tổ chức, doanh nghiệp đối với công đoàn',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -86,11 +86,11 @@ class Luatcongdoan2012Screen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context,'/htmlLoadlcdc4');
                             },
-                            label: Text('Chương IV.Những đảm bảo hoạt động của công đoàn',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('Chương IV.Những đảm bảo hoạt động của công đoàn',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -101,11 +101,11 @@ class Luatcongdoan2012Screen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context,'/htmlLoadlcdc5');
                             },
-                            label: Text('Chương V.Giải quyết tranh chấp, xử lý vi phạm pháp luật về công đoàn',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('Chương V.Giải quyết tranh chấp, xử lý vi phạm pháp luật về công đoàn',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -116,17 +116,17 @@ class Luatcongdoan2012Screen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context,'/htmlLoadlcdc6');
                             },
-                            label: Text('Chương VI.Điều khoản thi hành',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('Chương VI.Điều khoản thi hành',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
                       Container(
                           margin: const EdgeInsets.all(5),
-                          child: Text(
+                          child: const Text(
                             '©2021 - BCH Công đoàn TTVT9-VNPT Hà Nội',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic,color: Colors.yellow),
                           )),

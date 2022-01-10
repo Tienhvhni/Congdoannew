@@ -7,9 +7,9 @@ class LdcdScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Sổ tay công đoàn VNPT"),
+        title: const Text("Sổ tay công đoàn VNPT"),
         leading: IconButton(
-            icon: Icon(Icons.arrow_left),
+            icon: const Icon(Icons.arrow_left),
             onPressed: () {
               Navigator.pop(context);
             }
@@ -18,7 +18,7 @@ class LdcdScreen extends StatelessWidget {
         centerTitle: true,
       ),
       body: Column(
-        children: <Widget>[
+        children: const <Widget>[
           GradientAppBar("Lãnh đạo công đoàn VNPT Hà Nội"),
           HomePageBody(),
         ],
@@ -67,6 +67,8 @@ class GradientAppBar extends StatelessWidget {
   }
 }
 class HomePageBody extends StatelessWidget {
+  const HomePageBody({Key? key}) : super(key: key);
+
 @override
 Widget build(BuildContext context) {
   return Expanded(
@@ -95,11 +97,11 @@ class Dslanhdao extends StatelessWidget {
 
   final Hoso hoso;
 
-  Dslanhdao(this.hoso);
+  const Dslanhdao(this.hoso);
 
   @override
   Widget build(BuildContext context) {
-    final baseTextStyle = const TextStyle(
+    const baseTextStyle = TextStyle(
         fontFamily: 'Poppins'
     );
     final regularTextStyle = baseTextStyle.copyWith(
@@ -129,13 +131,13 @@ class Dslanhdao extends StatelessWidget {
           Text("Tel: "+hoso.dienthoai, style: subHeaderTextStyle),
           Text("Email: "+hoso.email, style: subHeaderTextStyle),
           Container(
-              margin: new EdgeInsets.symmetric(vertical: 8.0),
+              margin: const EdgeInsets.symmetric(vertical: 8.0),
               height: 2.0,
               width: 18.0,
-              color: Color(0xff00c6ff)
+              color: const Color(0xff00c6ff)
           ),
           Row(
-            children: <Widget>[
+            children: const <Widget>[
             ],
           ),
         ],
@@ -161,7 +163,7 @@ class Dslanhdao extends StatelessWidget {
     );
 
     final planetThumbnail = Container(
-      margin: EdgeInsets.symmetric(
+      margin: const EdgeInsets.symmetric(
           vertical: 16.0
       ),
       alignment: FractionalOffset.centerRight,

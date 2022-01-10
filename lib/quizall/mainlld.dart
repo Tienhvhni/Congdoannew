@@ -4,9 +4,11 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '/quizall/scoreStorage.dart';
 
 void main() {
-  runApp(HomePagelld());
+  runApp(const HomePagelld());
 }
 class HomePagelld extends StatefulWidget {
+  const HomePagelld({Key? key}) : super(key: key);
+
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -54,17 +56,17 @@ class _HomePageState extends State<HomePagelld> {
     int returnedScore = await Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => Quiz_lld(),
+          builder: (context) => quiz_lld(),
         ));
     setState(() {
       if (returnedScore != null) {
         _score = returnedScore;
         score.writeScore(_score);
-        this._scoreInFile = true;
+        _scoreInFile = true;
       } else {
         _score = 0;
         score.writeScore(_score);
-        this._scoreInFile = true;
+        _scoreInFile = true;
       }
     });
   }
@@ -72,9 +74,9 @@ class _HomePageState extends State<HomePagelld> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("10 Câu hỏi trắc nghiệm luật Lao Động"),
+        title: const Text("10 Câu hỏi trắc nghiệm luật Lao Động"),
         leading: IconButton(
-          icon: Icon(Icons.arrow_left),
+          icon: const Icon(Icons.arrow_left),
           onPressed: () {
             // Navigate to the second screen using a named route.
             _score = 0;
@@ -90,7 +92,7 @@ class _HomePageState extends State<HomePagelld> {
 
 
         Container(
-          padding: EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 15.0),
+          padding: const EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 15.0),
 
 
           child: Column(
@@ -114,7 +116,7 @@ class _HomePageState extends State<HomePagelld> {
                       textInputAction: TextInputAction.done,
                       keyboardType: TextInputType.text,
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 5.0,
                     ),
                     Row(
@@ -129,12 +131,12 @@ class _HomePageState extends State<HomePagelld> {
                               },
                               textColor: Colors.white,
                               color: Colors.indigo[400],
-                              child: Text(
+                              child: const Text(
                                 "Bắt đầu",
                                 style: TextStyle(
                                     fontSize: 18.0, color: Colors.white),
                               ),
-                              padding: EdgeInsets.all(10.0),
+                              padding: const EdgeInsets.all(10.0),
                             );
 
                           },
@@ -144,18 +146,18 @@ class _HomePageState extends State<HomePagelld> {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 80.0,
               ),
               _scoreInFile
                   ? Text(
                 'Số câu trả lời đúng: $_score',
-                style: TextStyle(
+                style: const TextStyle(
                     fontSize: 25.0,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 2.0),
               )
-                  : SizedBox(),
+                  : const SizedBox(),
 
             ],
           ),
@@ -167,14 +169,14 @@ class _HomePageState extends State<HomePagelld> {
 class Question extends StatelessWidget {
   final String questionText;
 
-  Question(this.questionText);
+  const Question(this.questionText);
 
   @override
   Widget build(BuildContext context) {
     return Container(
       child: Text(
         'Câu hỏi: ' + questionText,
-        style: TextStyle(fontSize: 16.0, color: Colors.red,),
+        style: const TextStyle(fontSize: 16.0, color: Colors.red,),
         textAlign: TextAlign.justify,
       ),
     );

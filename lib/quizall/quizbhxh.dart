@@ -4,12 +4,14 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'dart:async';
 import 'mainbhxh.dart';
 
-class Quiz_bhxh extends StatefulWidget {
+class quiz_bhxh extends StatefulWidget {
+  const quiz_bhxh({Key? key}) : super(key: key);
+
   @override
   _QuizState createState() => _QuizState();
 }
 
-class _QuizState extends State<Quiz_bhxh> {
+class _QuizState extends State<quiz_bhxh> {
   @override
   void initState() {
     _populateScoreArray();
@@ -75,7 +77,7 @@ class _QuizState extends State<Quiz_bhxh> {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
-        if (this._questionIndex == 0) {
+        if (_questionIndex == 0) {
           return true;
         } else {
           _questionIndex = _questionIndex - 1;
@@ -135,25 +137,25 @@ class _QuizState extends State<Quiz_bhxh> {
                                       onPressed: _answerQuestion,
                                       textColor: Colors.white,
                                       color: Colors.indigo[400],
-                                      shape: StadiumBorder(),
+                                      shape: const StadiumBorder(),
                                       child: Text(
                                         _questionIndex == _questions.length - 1
                                             ? "Kết thúc"
                                             : "Tiếp theo",
-                                        style: TextStyle(
+                                        style: const TextStyle(
                                             fontSize: 14.0,
                                             color: Colors.white),
                                           textAlign: TextAlign.justify,
                                       ),
-                                      padding: EdgeInsets.all(10.0),
+                                      padding: const EdgeInsets.all(10.0),
                                     )
-                                  : SizedBox(),
+                                  : const SizedBox(),
                             ],
                           );
                         } else if (snapshot.hasError) {
                           return Text('Error: ${snapshot.error}');
                         } else {
-                          return CircularProgressIndicator();
+                          return const CircularProgressIndicator();
                         }
                       }),
                 ],

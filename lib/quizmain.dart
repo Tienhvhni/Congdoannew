@@ -6,9 +6,9 @@ class QuizmainScreen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("Sổ tay công đoàn VNPT"),
+              title: const Text("Sổ tay công đoàn VNPT"),
               leading: IconButton(
-                  icon: Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_left),
                   onPressed: () {
                     Navigator.pop(context);
                   }
@@ -16,7 +16,7 @@ class QuizmainScreen extends StatelessWidget {
               automaticallyImplyLeading : true,
               centerTitle: true,
             ),
-            backgroundColor: Color(0xFF1264B6),
+            backgroundColor: const Color(0xFF1264B6),
             body: Center(
 
             child: SingleChildScrollView(
@@ -29,7 +29,7 @@ class QuizmainScreen extends StatelessWidget {
                       ),
                       Container(
                           margin: const EdgeInsets.all(5),
-                          child: Text(
+                          child: const Text(
                             'Các câu hỏi trắc nghiệm luật liên quan',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold,color: Colors.white),
                           )),
@@ -41,11 +41,11 @@ class QuizmainScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/quizlld');
                             },
-                            label: Text('QUIZ-LUẬT LAO ĐỘNG',textAlign: TextAlign.center,),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('QUIZ-LUẬT LAO ĐỘNG',textAlign: TextAlign.center,),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 255, 87, 34),
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 255, 87, 34),
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -56,11 +56,11 @@ class QuizmainScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/quizlcd');
                             },
-                            label: Text('QUIZ-LUẬT CÔNG ĐOÀN',textAlign: TextAlign.center,),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('QUIZ-LUẬT CÔNG ĐOÀN',textAlign: TextAlign.center,),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 255, 87, 34),
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 255, 87, 34),
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -71,17 +71,17 @@ class QuizmainScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/quizbhxh');
                             },
-                            label: Text('QUIZ-LUẬT BHXH',textAlign: TextAlign.center,),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('QUIZ-LUẬT BHXH',textAlign: TextAlign.center,),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 255, 87, 34),
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 255, 87, 34),
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
                       Container(
                           margin: const EdgeInsets.all(5),
-                          child: Text(
+                          child: const Text(
                             '©2021 - BCH Công đoàn TTVT9-VNPT Hà Nội',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic,color: Colors.yellow),
                           )),

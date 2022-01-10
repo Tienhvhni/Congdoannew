@@ -5,7 +5,7 @@ class TuldttvnptScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-            backgroundColor: Color(0xFF1264B6),
+            backgroundColor: const Color(0xFF1264B6),
 
             body: Center(
             child: SingleChildScrollView(
@@ -19,7 +19,7 @@ class TuldttvnptScreen extends StatelessWidget {
                       ),
                       Container(
                           margin: const EdgeInsets.all(5),
-                          child: Text(
+                          child: const Text(
                             'THOẢ ƯỚC LAO ĐỘNG TẬP THỂ TẬP ĐOÀN VNPT\nHiệu lực từ 22/10/2020-22/10/2023',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold,color: Colors.white),
                           )),
@@ -30,11 +30,11 @@ class TuldttvnptScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/htmlLoadltuldttc1');
                             },
-                            label: Text('CHƯƠNG I. NHỮNG QUY ĐỊNH CHUNG',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('CHƯƠNG I. NHỮNG QUY ĐỊNH CHUNG',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -45,11 +45,11 @@ class TuldttvnptScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/htmlLoadltuldttc2');
                             },
-                            label: Text('CHƯƠNG II.BẢO ĐẢM VIỆC LÀM ĐỐI VỚI NGƯỜI LAO ĐỘNG',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('CHƯƠNG II.BẢO ĐẢM VIỆC LÀM ĐỐI VỚI NGƯỜI LAO ĐỘNG',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -60,11 +60,11 @@ class TuldttvnptScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/htmlLoadltuldttc3');
                             },
-                            label: Text('CHƯƠNG III. BẢO ĐẢM AN TOÀN VỆ SINH LAO ĐỘNG',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('CHƯƠNG III. BẢO ĐẢM AN TOÀN VỆ SINH LAO ĐỘNG',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -75,11 +75,11 @@ class TuldttvnptScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/htmlLoadltuldttc4');
                             },
-                            label: Text('CHƯƠNG IV.TIỀN LƯƠNG VÀ CÁC CHẾ ĐỘ CHÍNH SÁCH ĐỐI VỚI NLĐ',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('CHƯƠNG IV.TIỀN LƯƠNG VÀ CÁC CHẾ ĐỘ CHÍNH SÁCH ĐỐI VỚI NLĐ',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
@@ -90,17 +90,17 @@ class TuldttvnptScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/htmlLoadltuldttc5');
                             },
-                            label: Text('CHƯƠNG V.ĐIỀU KHOẢN THI HÀNH',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            label: const Text('CHƯƠNG V.ĐIỀU KHOẢN THI HÀNH',textAlign: TextAlign.center),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),
                       Container(
                           margin: const EdgeInsets.all(5),
-                          child: Text(
+                          child: const Text(
                             '©2021 - BCH Công đoàn TTVT9-VNPT Hà Nội',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic,color: Colors.yellow),
                           )),

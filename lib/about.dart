@@ -6,9 +6,9 @@ class AboutScreen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("Sổ tay công đoàn VNPT"),
+              title: const Text("Sổ tay công đoàn VNPT"),
               leading: IconButton(
-                  icon: Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_left),
                   onPressed: () {
                     Navigator.pop(context);
                   }
@@ -16,7 +16,7 @@ class AboutScreen extends StatelessWidget {
               automaticallyImplyLeading : true,
               centerTitle: true,
             ),
-            backgroundColor: Color(0xFF1264B6),
+            backgroundColor: const Color(0xFF1264B6),
             body: Center(
             child: SingleChildScrollView(
                 child: Column(
@@ -24,7 +24,7 @@ class AboutScreen extends StatelessWidget {
                     children: [
                       Container(
                           margin: const EdgeInsets.all(5),
-                          child: Text(
+                          child: const Text(
                             'BCH CÔNG ĐOÀN TTVT9-VNPT HÀ NỘI',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold,color: Colors.yellow),
                           )),
@@ -39,13 +39,13 @@ class AboutScreen extends StatelessWidget {
 
                       Container(
                           margin: const EdgeInsets.all(5),
-                          child: Text(
+                          child: const Text(
                             'Liên hệ: Hồ Tiến, Tel +84913201781, Email: Tienhv.hni@vnpt.vn',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold,color: Colors.white),
                           )),
                       Container(
                           margin: const EdgeInsets.all(5),
-                          child: Text(
+                          child: const Text(
                             '©2021 - BCH Công đoàn TTVT9-VNPT Hà Nội All rights reserved',textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 14, fontWeight: FontWeight.normal,color: Colors.white),
                           )),
