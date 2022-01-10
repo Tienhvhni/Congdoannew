@@ -14,7 +14,7 @@ class HtmlLoadfivesp5Screen extends StatelessWidget {
             appBar: AppBar(
               title: const Text("PHƯƠNG PHÁP 5S"),
               leading: IconButton(
-                  icon: const Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_back_ios_new),
                   onPressed: () {
                     Navigator.pop(context);
                   }

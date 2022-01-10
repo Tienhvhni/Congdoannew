@@ -59,15 +59,9 @@ class _HomePageState extends State<HomePagelcd> {
           builder: (context) => quiz_lcd(),
         ));
     setState(() {
-      if (returnedScore != null) {
-        _score = returnedScore;
-        score.writeScore(_score);
-        _scoreInFile = true;
-      } else {
         _score = 0;
         score.writeScore(_score);
         _scoreInFile = true;
-      }
     });
   }
   @override
@@ -76,7 +70,7 @@ class _HomePageState extends State<HomePagelcd> {
       appBar: AppBar(
         title: const Text("32 Câu hỏi trắc nghiệm luật Công Đoàn"),
         leading: IconButton(
-          icon: const Icon(Icons.arrow_left),
+          icon: const Icon(Icons.arrow_back_ios_new),
           onPressed: () {
             // Navigate to the second screen using a named route.
             _score = 0;

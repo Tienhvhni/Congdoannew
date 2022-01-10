@@ -6,9 +6,9 @@ class FivesScreen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text("Phương pháp 5S"),
+              title: const Text("Sổ tay công đoàn VNPT"),
               leading: IconButton(
-                  icon: const Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_back_ios_new),
                   onPressed: () {
                     Navigator.pop(context);
                   }
@@ -64,7 +64,7 @@ class FivesScreen extends StatelessWidget {
                             label: const Text('3.MỤC TIÊU CỦA PHƯƠNG PHÁP 5S',textAlign: TextAlign.center),
                             icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
                               minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
@@ -79,7 +79,7 @@ class FivesScreen extends StatelessWidget {
                             label: const Text('4.LỢI ÍCH KHI ÁP DỤNG PHƯƠNG PHÁP 5S',textAlign: TextAlign.center),
                             icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
+                              primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
                               minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
@@ -92,10 +92,10 @@ class FivesScreen extends StatelessWidget {
                               Navigator.pushNamed(context, '/htmlLoadfivesp5');
                             },
                             label: const Text('5.NỘI DUNG CỦA PHƯƠNG PHÁP 5S',textAlign: TextAlign.center),
-                            icon: Icon(Icons.arrow_right),
+                            icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
                               primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
-                              minimumSize: Size.fromHeight(40),
+                              minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
                           )),

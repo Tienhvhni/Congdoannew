@@ -9,7 +9,7 @@ class LdcdScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Sổ tay công đoàn VNPT"),
         leading: IconButton(
-            icon: const Icon(Icons.arrow_left),
+            icon: const Icon(Icons.arrow_back_ios_new),
             onPressed: () {
               Navigator.pop(context);
             }
@@ -30,7 +30,7 @@ class LdcdScreen extends StatelessWidget {
 class GradientAppBar extends StatelessWidget {
   final String title;
   final double barHeight = 66.0;
-  const GradientAppBar(this.title);
+  const GradientAppBar(this.title, {Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     final double statusBarHeight = MediaQuery
@@ -97,7 +97,7 @@ class Dslanhdao extends StatelessWidget {
 
   final Hoso hoso;
 
-  const Dslanhdao(this.hoso);
+  const Dslanhdao(this.hoso, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

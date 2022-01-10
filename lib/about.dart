@@ -8,7 +8,7 @@ class AboutScreen extends StatelessWidget {
             appBar: AppBar(
               title: const Text("Sổ tay công đoàn VNPT"),
               leading: IconButton(
-                  icon: const Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_back_ios_new),
                   onPressed: () {
                     Navigator.pop(context);
                   }

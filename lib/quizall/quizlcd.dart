@@ -6,6 +6,8 @@ import 'dart:async';
 import 'mainlcd.dart';
 
 class quiz_lcd extends StatefulWidget {
+  const quiz_lcd({Key? key}) : super(key: key);
+
   @override
   _QuizState createState() => _QuizState();
 }

@@ -14,7 +14,7 @@ class HtmlLoadlcdc1Screen extends StatelessWidget {
             appBar: AppBar(
               title: const Text("LUẬT CÔNG ĐOÀN NĂM 2012"),
               leading: IconButton(
-                  icon: const Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_back_ios_new),
                   onPressed: () {
                     Navigator.pop(context);
                   }

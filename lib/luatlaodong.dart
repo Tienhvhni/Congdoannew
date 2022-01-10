@@ -6,9 +6,9 @@ class LuatlaodongScreen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: const Text("Sổ tay công đoàn VNPT"),
+              title: const Text("Các bộ luật, văn bản quan trọng"),
               leading: IconButton(
-                  icon: const Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_back_ios_new),
                   onPressed: () {
                     Navigator.pop(context);
                   }

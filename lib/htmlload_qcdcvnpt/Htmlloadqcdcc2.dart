@@ -14,7 +14,7 @@ class HtmlLoadqcdcc2Screen extends StatelessWidget {
             appBar: AppBar(
               title: const Text("QUY CHẾ DÂN CHỦ VNPT"),
               leading: IconButton(
-                  icon: const Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_back_ios_new),
                   onPressed: () {
                     Navigator.pop(context);
                   }

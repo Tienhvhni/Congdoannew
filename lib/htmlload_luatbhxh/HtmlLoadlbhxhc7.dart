@@ -14,7 +14,7 @@ class HtmlLoadlbhxhc7Screen extends StatelessWidget {
             appBar: AppBar(
               title: const Text("LUẬT BHXH NĂM 2014"),
               leading: IconButton(
-                  icon: const Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_back_ios_new),
                   onPressed: () {
                     Navigator.pop(context);
                   }

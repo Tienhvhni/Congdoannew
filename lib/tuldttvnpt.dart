@@ -5,8 +5,17 @@ class TuldttvnptScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
+            appBar: AppBar(
+              title: const Text("Các bộ luật văn bản quan trọng"),
+              leading: IconButton(
+                  icon: const Icon(Icons.arrow_back_ios_new),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  }
+              ),
+              automaticallyImplyLeading : true,
+            ),
             backgroundColor: const Color(0xFF1264B6),
-
             body: Center(
             child: SingleChildScrollView(
 

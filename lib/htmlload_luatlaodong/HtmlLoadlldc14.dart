@@ -14,7 +14,7 @@ class HtmlLoadlldc14Screen extends StatelessWidget {
             appBar: AppBar(
               title: const Text("LUẬT LAO ĐỘNG NĂM 2019"),
               leading: IconButton(
-                  icon: const Icon(Icons.arrow_left),
+                  icon: const Icon(Icons.arrow_back_ios_new),
                   onPressed: () {
                     Navigator.pop(context);
                   }

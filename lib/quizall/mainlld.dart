@@ -56,18 +56,12 @@ class _HomePageState extends State<HomePagelld> {
     int returnedScore = await Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => quiz_lld(),
+          builder: (context) => const quiz_lld(),
         ));
     setState(() {
-      if (returnedScore != null) {
-        _score = returnedScore;
-        score.writeScore(_score);
-        _scoreInFile = true;
-      } else {
         _score = 0;
         score.writeScore(_score);
         _scoreInFile = true;
-      }
     });
   }
   @override
@@ -76,7 +70,7 @@ class _HomePageState extends State<HomePagelld> {
       appBar: AppBar(
         title: const Text("10 Câu hỏi trắc nghiệm luật Lao Động"),
         leading: IconButton(
-          icon: const Icon(Icons.arrow_left),
+          icon: const Icon(Icons.arrow_back_ios_new),
           onPressed: () {
             // Navigate to the second screen using a named route.
             _score = 0;
@@ -169,7 +163,7 @@ class _HomePageState extends State<HomePagelld> {
 class Question extends StatelessWidget {
   final String questionText;
 
-  const Question(this.questionText);
+const Question(this.questionText, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
