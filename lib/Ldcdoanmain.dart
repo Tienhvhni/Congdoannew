@@ -15,11 +15,18 @@ class LdcdScreen extends StatelessWidget {
             }
         ),
         automaticallyImplyLeading : true,
-        centerTitle: true,
+
       ),
       body: Column(
         children: const <Widget>[
-          GradientAppBar("Lãnh đạo công đoàn VNPT Hà Nội"),
+          Text('LÃNH ĐẠO CÔNG ĐOÀN VNPT HÀ NỘI',
+            style:const TextStyle(
+                color: Colors.yellow,backgroundColor: const Color(0xFF3366FF),
+                fontFamily: 'Poppins',
+                fontWeight: FontWeight.w600,
+                fontSize: 16.0
+            ),
+          ),
           HomePageBody(),
         ],
       ),

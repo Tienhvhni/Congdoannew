@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePagelcd> {
           child: Column(
             children: [
               Text('32 CÂU HỎI TRẮC NGHIỆM LUẬT CÔNG ĐOÀN',
-                style: TextStyle(fontSize: 16.0, color: Colors.red,fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 14.0, color: Colors.red,fontWeight: FontWeight.bold),
                 textAlign: TextAlign.justify,
               ),
               Image.asset('assets/quiz.jpg',scale: 3),

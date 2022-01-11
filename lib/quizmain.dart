@@ -44,7 +44,7 @@ class QuizmainScreen extends StatelessWidget {
                             label: const Text('QUIZ-LUẬT LAO ĐỘNG',textAlign: TextAlign.center,),
                             icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: const Color.fromARGB(255, 255, 87, 34),
+                              primary: const Color.fromARGB(255, 151, 5, 63),
                               minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
@@ -59,7 +59,7 @@ class QuizmainScreen extends StatelessWidget {
                             label: const Text('QUIZ-LUẬT CÔNG ĐOÀN',textAlign: TextAlign.center,),
                             icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: const Color.fromARGB(255, 255, 87, 34),
+                              primary: const Color.fromARGB(255, 151, 5, 63),
                               minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
@@ -74,7 +74,7 @@ class QuizmainScreen extends StatelessWidget {
                             label: const Text('QUIZ-LUẬT BHXH',textAlign: TextAlign.center,),
                             icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
-                              primary: const Color.fromARGB(255, 255, 87, 34),
+                              primary: const Color.fromARGB(255, 151, 5, 63),
                               minimumSize: const Size.fromHeight(40),
                               //border width and color
                             ),
