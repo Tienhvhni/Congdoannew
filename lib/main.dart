@@ -7,6 +7,7 @@ import '/about.dart';
 import '/luat.dart';
 import '/quizmain.dart';
 import '/luatlaodong.dart';
+import 'package:congdoan/tccdmain.dart';
 import '/luatbhxh.dart';
 import '/luatcongdoan2012.dart';
 import '/qcdcvnpt.dart';
@@ -62,10 +63,16 @@ import 'package:congdoan/htmlload_luatcongdoan/HtmlLoadlcdc3.dart';
 import 'package:congdoan/htmlload_luatcongdoan/HtmlLoadlcdc4.dart';
 import 'package:congdoan/htmlload_luatcongdoan/HtmlLoadlcdc5.dart';
 import 'package:congdoan/htmlload_luatcongdoan/HtmlLoadlcdc6.dart';
+import 'package:congdoan/htmlload_tccd/Htmlloadtccdc1.dart';
+import 'package:congdoan/htmlload_tccd/Htmlloadtccdc2.dart';
+import 'package:congdoan/htmlload_tccd/Htmlloadtccdc3.dart';
+import 'package:congdoan/htmlload_tccd/Htmlloadtccdc4.dart';
+import 'package:congdoan/htmlload_tccd/Htmlloadtccdc5.dart';
+import 'package:congdoan/htmlload_tccd/Htmlloadtccdc6.dart';
+import 'package:congdoan/htmlload_tccd/Htmlloadtccdc7.dart';
+import 'package:congdoan/htmlload_tccd/Htmlloadtccdc8.dart';
+import 'package:congdoan/htmlload_tccd/Htmlloadtccdc9.dart';
 import '/Ldcdoanmain.dart';
-import 'quizall/mainbhxh.dart';
-import 'quizall/mainlld.dart';
-import 'quizall/mainlcd.dart';
 
 void main() {
   runApp(
@@ -87,6 +94,7 @@ void main() {
         '/qcdcvnpt': (context) => const QcdcvnptScreen(),
         '/tuldttvnpt': (context) => const TuldttvnptScreen(),
         '/fives': (context) => const FivesScreen(),
+        '/tccd': (context) => const TccdScreen(),
         '/htmlLoadfivesp1': (context) => const HtmlLoadfivesp1Screen(),
         '/htmlLoadfivesp2': (context) => const HtmlLoadfivesp2Screen(),
         '/htmlLoadfivesp3': (context) => const HtmlLoadfivesp3Screen(),
@@ -136,6 +144,16 @@ void main() {
         '/htmlLoadlcdc4': (context) => const HtmlLoadlcdc4Screen(),
         '/htmlLoadlcdc5': (context) => const HtmlLoadlcdc5Screen(),
         '/htmlLoadlcdc6': (context) => const HtmlLoadlcdc6Screen(),
+        //html load TCCD
+        '/htmlLoadtccdc1': (context) => const Htmlloadtccdc1Screen(),
+        '/htmlLoadtccdc2': (context) => const Htmlloadtccdc2Screen(),
+        '/htmlLoadtccdc3': (context) => const Htmlloadtccdc3Screen(),
+        '/htmlLoadtccdc4': (context) => const Htmlloadtccdc4Screen(),
+        '/htmlLoadtccdc5': (context) => const Htmlloadtccdc5Screen(),
+        '/htmlLoadtccdc6': (context) => const Htmlloadtccdc6Screen(),
+        '/htmlLoadtccdc7': (context) => const Htmlloadtccdc7Screen(),
+        '/htmlLoadtccdc8': (context) => const Htmlloadtccdc8Screen(),
+        '/htmlLoadtccdc9': (context) => const Htmlloadtccdc9Screen(),
         '/ldcd': (context) => const LdcdScreen(),
         '/quizbhxh': (context) => HomePagebhxh(),
         '/quizlcd': (context) => HomePagelcd(),
@@ -200,7 +218,21 @@ class MainScreen extends StatelessWidget {
                               //border width and color
                             ),
                           )),
-
+                      Container(
+                          margin: const EdgeInsets.all(5),
+                          child: ElevatedButton.icon(
+                            onPressed: () {
+                              // Navigate to the second screen using a named route.
+                              Navigator.pushNamed(context, '/tccd');
+                            },
+                            label: const Text('TÀI CHÍNH CÔNG ĐOÀN',textAlign: TextAlign.center,),
+                            icon: const Icon(Icons.arrow_right),
+                            style: ElevatedButton.styleFrom(
+                              primary: const Color.fromARGB(255, 151, 5, 63),
+                              minimumSize: const Size.fromHeight(40),
+                              //border width and color
+                            ),
+                          )),
                       Container(
                           margin: const EdgeInsets.all(5),
                           child: ElevatedButton.icon(

@@ -56,7 +56,7 @@ class LuatbhxhScreen extends StatelessWidget {
                               // Navigate to the second screen using a named route.
                               Navigator.pushNamed(context, '/htmlLoadlbhxhc2');
                             },
-                            label: const Text('CHƯƠNG II.QUYỀN, TRÁCH NHIỆM CỦA NG­ƯỜI LAO ĐỘNG, NGƯ­ỜI SỬ DỤNG LAO ĐỘNG, CƠ QUAN BẢO HIỂM XÃ HỘI',textAlign: TextAlign.center),
+                            label: const Text('CHƯƠNG II.QUYỀN, TRÁCH NHIỆM CỦA NLĐ, NSD LĐ, CƠ QUAN BẢO HIỂM XÃ HỘI',textAlign: TextAlign.center),
                             icon: const Icon(Icons.arrow_right),
                             style: ElevatedButton.styleFrom(
                               primary: const Color.fromARGB(255, 220, 220, 220),onPrimary: Colors.black,
